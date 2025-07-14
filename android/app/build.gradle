@@ -1,0 +1,203 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+
+    // START: FlutterFire Configuration
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.firebase-perf'
+    id 'com.google.firebase.crashlytics'
+    // END: FlutterFire Configuration
+
+}
+
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader -> localProperties.load(reader)
+    }
+}
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+
+android {
+    namespace = "com.kitsys"
+//    compileSdk = localProperties.getProperty('flutter.compileSdkVersion').toInteger()
+    compileSdkVersion 35
+    ndkVersion '27.0.12077973'
+    //ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        // Flag to enable support for the new language APIs
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging true
+            // Enabling flag to compress JNI Libs to reduce APK size Ref: https://developer.android.com/studio/releases/gradle-plugin#compress-native-libs-dsl
+        }
+    }
+
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId = "com.kitsys"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://flutter.dev/to/review-gradle-config.
+        minSdk = localProperties.getProperty('flutter.minSdkVersion').toInteger()
+        targetSdk = localProperties.getProperty('flutter.targetSdkVersion').toInteger()
+        versionCode = localProperties.getProperty('flutter.versionCode')
+        versionName = localProperties.getProperty('flutter.versionName')
+        multiDexEnabled true
+        multiDexKeepFile file('multidex-flutter.txt')
+    }
+
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+    flavorDimensions 'default'
+    productFlavors {
+        ///... to create build apk for test
+        clothes {
+            dimension "default"
+            //versionNameSuffix ".clothes"
+            applicationIdSuffix '.clothes'
+            //resValue "string", "app_name", "@string/app_name_clothes"
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+
+        ///... to create build apk for debug in emulator
+        emClothes {
+            dimension "default"
+            //versionNameSuffix ".clothes"
+            applicationIdSuffix '.clothes'
+            //resValue "string", "app_name", "@string/app_name_clothes"
+        }
+
+        ///... to create build apk for test
+        books {
+            dimension "default"
+            //versionNameSuffix ".books"
+            applicationIdSuffix '.books'
+            //resValue "string", "app_name", "@string/app_name_books"
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+
+        ///... to create build apk for debug in emulator
+        emBooks {
+            dimension "default"
+            //versionNameSuffix ".books"
+            applicationIdSuffix '.books'
+            //resValue "string", "app_name", "@string/app_name_books"
+        }
+
+
+        ///... to create build apk for test
+        electronic {
+            dimension "default"
+            //versionNameSuffix ".electronic"
+            applicationIdSuffix '.electronic'
+            //resValue "string", "app_name", "@string/app_name_electronic"
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+
+        ///... to create build apk for debug in emulator
+        emElectronic {
+            dimension "default"
+            //versionNameSuffix ".electronic"
+            applicationIdSuffix '.electronic'
+            //resValue "string", "app_name", "@string/app_name_electronic"
+        }
+
+        ///... to create build apk for test
+        liveForTest {
+            dimension "default"
+            //resValue "string", "app_name", "@string/app_name_live"
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+
+        ///... to create build apk for debug in emulator
+        emLive {
+            dimension "default"
+            //resValue "string", "app_name", "@string/app_name_live"
+        }
+
+        ///... to create build release bundle for google play
+        live {
+            dimension "default"
+            //resValue "string", "app_name", "@string/app_name_live"
+            ndk {
+                abiFilters "armeabi-v7a", 'arm64-v8a'
+            }
+        }
+
+        localhost {
+            dimension "default"
+            applicationIdSuffix '.localhost'
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+
+        ///... to create build apk for debug in emulator
+        emlocalhost {
+            dimension "default"
+            applicationIdSuffix '.localhost'
+            //resValue "string", "app_name", "@string/app_name_localhost"
+        }
+
+
+    }
+
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4'
+}

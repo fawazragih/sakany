@@ -1,0 +1,1586 @@
+{
+  "ShowHomepageSlider": true,
+  "ShowFeaturedProducts": true,
+  "SliderAutoPlay": true,
+  "SliderAutoPlayTimeout": 5,
+  "ShowBestsellersOnHomepage": true,
+  "ShowHomepageCategoryProducts": true,
+  "ShowManufacturers": true,
+  "Rtl": true,
+  "AndroidVersion": "1.0.0",
+  "AndriodForceUpdate": true,
+  "PlayStoreUrl": "",
+  "IOSVersion": "1.0.0",
+  "IOSForceUpdate": true,
+  "AppStoreUrl": "",
+  "LogoUrl": "https://ms-store.demo.maujood.store/images/thumbs/0000089_logo_180.png",
+  "TotalShoppingCartProducts": 0,
+  "TotalWishListProducts": 0,
+  "ShowAllVendors": false,
+  "AnonymousCheckoutAllowed": false,
+  "ShowChangeBaseUrlPanel": false,
+  "HasReturnRequests": false,
+  "HideDownloadableProducts": false,
+  "PrimaryThemeColor": "#FF476E",
+  "TopBarBackgroundColor": "#F7F6F6",
+  "TopBarTextColor": "#000000",
+  "BottomBarBackgroundColor": "#F7F6F6",
+  "BottomBarActiveColor": "#FF476E",
+  "BottomBarInactiveColor": "#000000",
+  "GradientStartingColor": "#088DF9",
+  "GradientMiddleColor": "#07C5FB",
+  "GradientEndingColor": "#0BF7EB",
+  "GradientEnabled": false,
+  "IOSProductPriceTextSize": 12,
+  "AndroidProductPriceTextSize": 11,
+  "IonicProductPriceTextSize": 18,
+  "NewProductsEnabled": true,
+  "RecentlyViewedProductsEnabled": true,
+  "CompareProductsEnabled": true,
+  "AllowCustomersToUploadAvatars": false,
+  "AvatarMaximumSizeBytes": 20000,
+  "HideBackInStockSubscriptionsTab": false,
+  "StoreClosed": false,
+  "GdprEnabled": false,
+  "AllowCustomersToDeleteAccount": false,
+  "PhoneAuthenticationEnabled": false,
+  "CheckPhoneNumberRegex": false,
+  "PhoneNumberRegex": "",
+  "CurrencyNavSelector": {
+    "AvailableCurrencies": [
+      {
+        "Name": "Saudi Riyal",
+        "CurrencySymbol": "ر.س.‏",
+        "Id": 12,
+        "CustomProperties": {}
+      },
+      {
+        "Name": "ريال يمني",
+        "CurrencySymbol": "ر.ي.‏",
+        "Id": 13,
+        "CustomProperties": {}
+      },
+      {
+        "Name": "US Dollar",
+        "CurrencySymbol": "$",
+        "Id": 1,
+        "CustomProperties": {}
+      }
+    ],
+    "CurrentCurrencyId": 12,
+    "CustomProperties": {}
+  },
+  "LanguageNavSelector": {
+    "AvailableLanguages": [
+      {
+        "Name": "AR",
+        "FlagImageFileName": "sa.png",
+        "Id": 2,
+        "CustomProperties": {}
+      },
+      {
+        "Name": "EN",
+        "FlagImageFileName": "us.png",
+        "Id": 1,
+        "CustomProperties": {}
+      }
+    ],
+    "CurrentLanguageId": 2,
+    "UseImages": false,
+    "CustomProperties": {}
+  },
+  "StringResources": [
+    {
+      "Key": "account.avatar.maximumuploadedfilesize",
+      "Value": "الحد الأقصى للصورة الشخصية هو {0} بايت"
+    },
+    {
+      "Key": "account.avatar.removeavatar",
+      "Value": "مسح الصورة الشخصية"
+    },
+    {
+      "Key": "account.backinstocksubscriptions",
+      "Value": "اشتراكات منتجات حين عودتها للمخزن"
+    },
+    {
+      "Key": "account.backinstocksubscriptions.deleteselected",
+      "Value": "مسح المختار"
+    },
+    {
+      "Key": "account.backinstocksubscriptions.description",
+      "Value": "سوف تتلقى رسالة عبر البريد الإلكتروني عندما يعود المنتج المحدد مرة أخرى في المخزون"
+    },
+    {
+      "Key": "account.backinstocksubscriptions.nosubscriptions",
+      "Value": "أنت غير مشترك حاليا في أي قوائم إخطار العودة فى المخزون "
+    },
+    {
+      "Key": "account.changepassword",
+      "Value": "تغيير كلمة المرور"
+    },
+    {
+      "Key": "account.changepassword.button",
+      "Value": "تغيير كلمة المرور"
+    },
+    {
+      "Key": "account.changepassword.fields.confirmnewpassword",
+      "Value": "تأكيد كلمة المرور"
+    },
+    {
+      "Key": "account.changepassword.fields.confirmnewpassword.required",
+      "Value": "كلمة المرور مطلوبة"
+    },
+    {
+      "Key": "account.changepassword.fields.newpassword",
+      "Value": "كلمة المرور الجديدة"
+    },
+    {
+      "Key": "account.changepassword.fields.newpassword.enteredpasswordsdonotmatch",
+      "Value": "كلمة المرور الجديدة وتأكيدها غير متطابقين"
+    },
+    {
+      "Key": "account.changepassword.fields.oldpassword",
+      "Value": "كلمة المرور القديمة"
+    },
+    {
+      "Key": "account.changepassword.fields.oldpassword.required",
+      "Value": "كلمة المرور القديمة مطلوبة"
+    },
+    {
+      "Key": "account.customeraddresses",
+      "Value": "العناوين"
+    },
+    {
+      "Key": "account.customeraddresses.addnew",
+      "Value": "إضافة عنوان جديد"
+    },
+    {
+      "Key": "account.customerorders",
+      "Value": "الطلبات"
+    },
+    {
+      "Key": "account.customerorders.orderdate",
+      "Value": "تاريخ الطلب"
+    },
+    {
+      "Key": "account.customerorders.ordernumber",
+      "Value": "رقم الطلب"
+    },
+    {
+      "Key": "account.customerorders.orderstatus",
+      "Value": "حالة الطلب"
+    },
+    {
+      "Key": "account.customerorders.ordertotal",
+      "Value": "إجمالي الطلب"
+    },
+    {
+      "Key": "account.customerproductreviews",
+      "Value": "تقييماتي"
+    },
+    {
+      "Key": "account.customerreturnrequests",
+      "Value": "الطلبات المرتجعة"
+    },
+    {
+      "Key": "account.customerreturnrequests.action",
+      "Value": "طلب الإرجاع:"
+    },
+    {
+      "Key": "account.customerreturnrequests.comments",
+      "Value": "تقييمك:"
+    },
+    {
+      "Key": "account.customerreturnrequests.date",
+      "Value": "تاريخ الطلب:"
+    },
+    {
+      "Key": "account.customerreturnrequests.item",
+      "Value": "المنتج المرتجع:"
+    },
+    {
+      "Key": "account.customerreturnrequests.reason",
+      "Value": "سبب الإرجاع:"
+    },
+    {
+      "Key": "account.customerreturnrequests.title",
+      "Value": "إرجاع #{0} - {1}"
+    },
+    {
+      "Key": "account.customerreturnrequests.uploadedfile",
+      "Value": "رفع الملف:"
+    },
+    {
+      "Key": "account.customerreturnrequests.uploadedfile.download",
+      "Value": "تحميل"
+    },
+    {
+      "Key": "account.downloadableproducts",
+      "Value": "منتجات للتحميل"
+    },
+    {
+      "Key": "account.fields.acceptprivacypolicy",
+      "Value": "الموافقة على الشروط والأحكام"
+    },
+    {
+      "Key": "account.fields.acceptprivacypolicy.required",
+      "Value": "من فضلك قم بالإطلاع والموافقة على الشروط والأحكام"
+    },
+    {
+      "Key": "account.fields.company",
+      "Value": "إسم الشركة"
+    },
+    {
+      "Key": "account.fields.confirmpassword",
+      "Value": "تأكيد كلمة المرور"
+    },
+    {
+      "Key": "account.fields.country",
+      "Value": "الدولة"
+    },
+    {
+      "Key": "account.fields.country.required",
+      "Value": "الدولة مطلوبة"
+    },
+    {
+      "Key": "account.fields.county",
+      "Value": "المقاطعة / المنطقة"
+    },
+    {
+      "Key": "account.fields.dateofbirth",
+      "Value": "تاريخ الميلاد"
+    },
+    {
+      "Key": "account.fields.email",
+      "Value": "البريد الإلكتروني"
+    },
+    {
+      "Key": "account.fields.fax",
+      "Value": "الفاكس"
+    },
+    {
+      "Key": "account.fields.gender",
+      "Value": "الجنس"
+    },
+    {
+      "Key": "account.fields.gender.female",
+      "Value": "أنثى"
+    },
+    {
+      "Key": "account.fields.gender.male",
+      "Value": "ذكر"
+    },
+    {
+      "Key": "account.fields.newsletter",
+      "Value": "النشرة البريدية"
+    },
+    {
+      "Key": "account.fields.phone",
+      "Value": "رقم الهاتف"
+    },
+    {
+      "Key": "account.fields.stateprovince.required",
+      "Value": "المدينة مطلوبة"
+    },
+    {
+      "Key": "account.fields.streetaddress",
+      "Value": "العنوان"
+    },
+    {
+      "Key": "account.fields.streetaddress2",
+      "Value": "العنوان 2"
+    },
+    {
+      "Key": "account.fields.timezone",
+      "Value": "المنطقة الزمنية"
+    },
+    {
+      "Key": "account.fields.username",
+      "Value": "إسم المستخدم"
+    },
+    {
+      "Key": "account.fields.zippostalcode.required",
+      "Value": "الرقم البريدي مطلوب"
+    },
+    {
+      "Key": "account.login",
+      "Value": "تسجيل دخول"
+    },
+    {
+      "Key": "account.login.checkoutasguest",
+      "Value": "الشراء كضيف"
+    },
+    {
+      "Key": "account.login.checkoutasguestorregister",
+      "Value": "الشراء كضيف او تسجيل الدخول"
+    },
+    {
+      "Key": "account.login.fields.email",
+      "Value": "البريد الإلكتروني"
+    },
+    {
+      "Key": "account.login.fields.email.required",
+      "Value": "من فضلك أدخل بريدك الإلكتروني"
+    },
+    {
+      "Key": "account.login.fields.password",
+      "Value": "كلمة المرور"
+    },
+    {
+      "Key": "account.login.forgotpassword",
+      "Value": "نسيت كلمة المرور?"
+    },
+    {
+      "Key": "account.login.loginbutton",
+      "Value": "تسجيل دخول"
+    },
+    {
+      "Key": "account.login.newcustomer",
+      "Value": "مستخدم جديد"
+    },
+    {
+      "Key": "account.logout",
+      "Value": "تسجيل خروج"
+    },
+    {
+      "Key": "account.options",
+      "Value": "الإختيارات"
+    },
+    {
+      "Key": "account.passwordrecovery",
+      "Value": "إستعادة كلمة المرور"
+    },
+    {
+      "Key": "account.passwordrecovery.changepasswordbutton",
+      "Value": "إستعادة كلمة المرور"
+    },
+    {
+      "Key": "account.passwordrecovery.email",
+      "Value": "البريد الإلكتروني"
+    },
+    {
+      "Key": "account.passwordrecovery.email.required",
+      "Value": "ادخل البريد الإلكتروني"
+    },
+    {
+      "Key": "account.preferences",
+      "Value": "الإعدادات"
+    },
+    {
+      "Key": "account.register.button",
+      "Value": "تسجيل جديد"
+    },
+    {
+      "Key": "account.rewardpoints",
+      "Value": "نقاط المكافئة"
+    },
+    {
+      "Key": "account.shoppingcart",
+      "Value": "account.shoppingcart"
+    },
+    {
+      "Key": "account.useragreement",
+      "Value": "اتفاقية المستخدم"
+    },
+    {
+      "Key": "account.vendorinfo.description",
+      "Value": "الوصف"
+    },
+    {
+      "Key": "account.yourpassword",
+      "Value": "كلمة المرور"
+    },
+    {
+      "Key": "account.yourpersonaldetails",
+      "Value": "معلوماتك الشخصية"
+    },
+    {
+      "Key": "address.fields.address1",
+      "Value": "العنوان 1"
+    },
+    {
+      "Key": "address.fields.address2",
+      "Value": "العنوان 2"
+    },
+    {
+      "Key": "address.fields.city",
+      "Value": "المدينة"
+    },
+    {
+      "Key": "address.fields.company",
+      "Value": "الشركة"
+    },
+    {
+      "Key": "address.fields.email",
+      "Value": "البريد الإلكتروني"
+    },
+    {
+      "Key": "address.fields.fax",
+      "Value": "address.fields.fax"
+    },
+    {
+      "Key": "address.fields.firstname",
+      "Value": "الإسم الأول"
+    },
+    {
+      "Key": "address.fields.lastname",
+      "Value": "اسم العائلة"
+    },
+    {
+      "Key": "address.fields.phonenumber",
+      "Value": "رقم الهاتف"
+    },
+    {
+      "Key": "address.fields.stateprovince",
+      "Value": "المدينة"
+    },
+    {
+      "Key": "address.fields.zippostalcode",
+      "Value": "الرقم البريدي"
+    },
+    {
+      "Key": "address.selectcountry",
+      "Value": "اختار الدولة"
+    },
+    {
+      "Key": "address.selectstate",
+      "Value": "اختار المحافظة"
+    },
+    {
+      "Key": "backinstocksubscriptions.alreadysubscribed",
+      "Value": "أنت مشترك بالفعل في هذا اشعار عودة هذا المنتج للمخزن"
+    },
+    {
+      "Key": "backinstocksubscriptions.notifyme",
+      "Value": "اخطرني"
+    },
+    {
+      "Key": "backinstocksubscriptions.notifymewhenavailable",
+      "Value": "اخطرني حين يكون متاحا"
+    },
+    {
+      "Key": "backinstocksubscriptions.onlyregistered",
+      "Value": "يمكن للعملاء المسجلين فقط استخدام هذه الميزة"
+    },
+    {
+      "Key": "backinstocksubscriptions.popuptitle",
+      "Value": "سوف تتلقى رسالة بريد إلكتروني عندما يصل هذا في المخزون"
+    },
+    {
+      "Key": "backinstocksubscriptions.tooltip",
+      "Value": "فستتلقى رسالة بريد إلكتروني مرة واحدة عندما يكون هذا المنتج متاحا للطلب مرة أخرى. ونحن لن نرسل لك أي رسائل البريد الإلكتروني الأخرى أو إضافتك إلى النشرة الإخبارية لدينا. سوف يكون فقط عبر البريد الالكتروني حول هذا المنتج!"
+    },
+    {
+      "Key": "backinstocksubscriptions.unsubscribe",
+      "Value": "إلغاء الاشتراك"
+    },
+    {
+      "Key": "bestsellers",
+      "Value": "الأكثر مبيعا"
+    },
+    {
+      "Key": "catalog.orderby",
+      "Value": "رتب بـ"
+    },
+    {
+      "Key": "catalog.pagesize.label",
+      "Value": "حدد عدد المنتجات في كل صفحة"
+    },
+    {
+      "Key": "checkout.billingaddress",
+      "Value": "عنوان الدفع"
+    },
+    {
+      "Key": "checkout.button",
+      "Value": "الدفع"
+    },
+    {
+      "Key": "checkout.confirmbutton",
+      "Value": "تأكيد"
+    },
+    {
+      "Key": "checkout.confirmorder",
+      "Value": "تأكيد الطلب"
+    },
+    {
+      "Key": "checkout.newaddress",
+      "Value": "عنوان جديد"
+    },
+    {
+      "Key": "checkout.ordernumber",
+      "Value": "رقم الطلب"
+    },
+    {
+      "Key": "checkout.paymentmethod",
+      "Value": "طريقة الدفع او السداد"
+    },
+    {
+      "Key": "checkout.pickuppoints.description",
+      "Value": "استلام المنتجات من المتجر"
+    },
+    {
+      "Key": "checkout.progress.address",
+      "Value": "العنوان"
+    },
+    {
+      "Key": "checkout.progress.confirm",
+      "Value": "تأكيد"
+    },
+    {
+      "Key": "checkout.progress.payment",
+      "Value": "الدفع"
+    },
+    {
+      "Key": "checkout.progress.shipping",
+      "Value": "الشحن"
+    },
+    {
+      "Key": "checkout.selectbillingaddressorenternewone",
+      "Value": "اختار عنوان الدفع من دفتر العناوين او ادخل عنوانا جديدا"
+    },
+    {
+      "Key": "checkout.selectpaymentmethod",
+      "Value": "اختار طريقة الدفع"
+    },
+    {
+      "Key": "checkout.selectshippingaddressorenternewone",
+      "Value": "اختار عنوان الشحن من دفتر العناوين او ادخل عنوانا جديدا"
+    },
+    {
+      "Key": "checkout.selectshippingmethod",
+      "Value": "اختار طريقة الشحن"
+    },
+    {
+      "Key": "checkout.shippingaddress",
+      "Value": "عنوان الشحن"
+    },
+    {
+      "Key": "checkout.shippingmethod",
+      "Value": "طريقة الشحن"
+    },
+    {
+      "Key": "checkout.shiptosameaddress",
+      "Value": "اشحن الي نفس العنوان"
+    },
+    {
+      "Key": "checkout.thankyou",
+      "Value": "شكرا لك"
+    },
+    {
+      "Key": "checkout.userewardpoints",
+      "Value": "استخدم نقاط المكافأة الخاصة بي {0} ، {1} نقاط المكافأة ({2}) المتاحة لهذا الطلب"
+    },
+    {
+      "Key": "checkout.yourorderhasbeensuccessfullyprocessed",
+      "Value": "تمت معالجة طلبك بنجاح!"
+    },
+    {
+      "Key": "common.all",
+      "Value": "الكل"
+    },
+    {
+      "Key": "common.back",
+      "Value": "العودة"
+    },
+    {
+      "Key": "common.cancel",
+      "Value": "الغاء"
+    },
+    {
+      "Key": "common.continue",
+      "Value": "المتابعة"
+    },
+    {
+      "Key": "common.edit",
+      "Value": "تعديل"
+    },
+    {
+      "Key": "common.fileuploader.upload",
+      "Value": "ارفع الملف"
+    },
+    {
+      "Key": "common.home",
+      "Value": "common.home"
+    },
+    {
+      "Key": "common.no",
+      "Value": "لا"
+    },
+    {
+      "Key": "common.ok",
+      "Value": "موافق"
+    },
+    {
+      "Key": "common.save",
+      "Value": "حفظ"
+    },
+    {
+      "Key": "common.search",
+      "Value": "بحث"
+    },
+    {
+      "Key": "common.upload",
+      "Value": "تحميل"
+    },
+    {
+      "Key": "common.yes",
+      "Value": "نعم"
+    },
+    {
+      "Key": "contactus",
+      "Value": "اتصل بنا"
+    },
+    {
+      "Key": "contactus.button",
+      "Value": "ارسل"
+    },
+    {
+      "Key": "contactus.email.hint",
+      "Value": "أدخل عنوان بريدك الالكتروني."
+    },
+    {
+      "Key": "contactus.enquiry.hint",
+      "Value": "اكتب استفسارك"
+    },
+    {
+      "Key": "contactus.enquiry.required",
+      "Value": "اكتب استفسار"
+    },
+    {
+      "Key": "contactus.fullname.hint",
+      "Value": "اكتب اسمك."
+    },
+    {
+      "Key": "contactus.fullname.required",
+      "Value": "اكتب اسمك"
+    },
+    {
+      "Key": "contactus.subject.hint",
+      "Value": "اكتب الموضوع."
+    },
+    {
+      "Key": "contactvendor",
+      "Value": "اتصل بالبائع"
+    },
+    {
+      "Key": "contactvendor.button",
+      "Value": "ارسل"
+    },
+    {
+      "Key": "contactvendor.email.hint",
+      "Value": "أدخل عنوان بريدك الالكتروني."
+    },
+    {
+      "Key": "contactvendor.email.required",
+      "Value": "ادخل بريد إلكتروني"
+    },
+    {
+      "Key": "contactvendor.enquiry.hint",
+      "Value": "اكتب استفسارك"
+    },
+    {
+      "Key": "contactvendor.enquiry.required",
+      "Value": "اكتب استفسار"
+    },
+    {
+      "Key": "contactvendor.fullname.hint",
+      "Value": "اكتب اسمك."
+    },
+    {
+      "Key": "contactvendor.fullname.required",
+      "Value": "اكتب اسمك"
+    },
+    {
+      "Key": "contactvendor.subject.hint",
+      "Value": "اكتب الموضوع."
+    },
+    {
+      "Key": "contactvendor.subject.required",
+      "Value": "يرجي كتابة الموضوع"
+    },
+    {
+      "Key": "currency.selector.label",
+      "Value": "محدد العملة"
+    },
+    {
+      "Key": "downloadableproducts.fields.download",
+      "Value": "تحميل"
+    },
+    {
+      "Key": "downloadableproducts.iagree",
+      "Value": "أوافق"
+    },
+    {
+      "Key": "downloadableproducts.useragreement",
+      "Value": "اتفاقية المستخدم"
+    },
+    {
+      "Key": "enums.nop.core.domain.catalog.producttype.groupedproduct",
+      "Value": "مجمعة (المنتج مع السمات)"
+    },
+    {
+      "Key": "filtering.pricerangefilter",
+      "Value": "التصفية بالسعر"
+    },
+    {
+      "Key": "filtering.pricerangefilter.remove",
+      "Value": "filtering.pricerangefilter.remove"
+    },
+    {
+      "Key": "filtering.specificationfilter",
+      "Value": "التصفية بالمواصفات"
+    },
+    {
+      "Key": "filtering.specificationfilter.currentlyfilteredby",
+      "Value": "filtering.specificationfilter.currentlyfilteredby"
+    },
+    {
+      "Key": "homepage.products",
+      "Value": "منتجات مميزة"
+    },
+    {
+      "Key": "languages.selector.label",
+      "Value": "محدد اللغات"
+    },
+    {
+      "Key": "manufacturers",
+      "Value": "الشركات"
+    },
+    {
+      "Key": "misc.smsauthentication.passwordrecovery.phone.required",
+      "Value": "Phone number is required"
+    },
+    {
+      "Key": "misc.smsauthentication.phonenumber",
+      "Value": "Phone number"
+    },
+    {
+      "Key": "misc.smsauthentication.phonenumberinvalid",
+      "Value": "Invalid phone number"
+    },
+    {
+      "Key": "nopstation.webapi.aboutus",
+      "Value": "About us"
+    },
+    {
+      "Key": "nopstation.webapi.accept",
+      "Value": "I read & I accept"
+    },
+    {
+      "Key": "nopstation.webapi.account.fields.enterpassword",
+      "Value": "Enter password"
+    },
+    {
+      "Key": "nopstation.webapi.account.info",
+      "Value": "Account info"
+    },
+    {
+      "Key": "nopstation.webapi.account.logoutconfirmation",
+      "Value": "Are you sure you want to logout?"
+    },
+    {
+      "Key": "nopstation.webapi.address.fields.addresssaved",
+      "Value": "Address saved successfully"
+    },
+    {
+      "Key": "nopstation.webapi.address.fields.addressupdated",
+      "Value": "Address updated successfully"
+    },
+    {
+      "Key": "nopstation.webapi.address.fields.confirmdeleteaddress",
+      "Value": "Do you want to delete this address?"
+    },
+    {
+      "Key": "nopstation.webapi.address.fields.deleteaddress",
+      "Value": "Delete address"
+    },
+    {
+      "Key": "nopstation.webapi.checkout.completepreviousstep",
+      "Value": "Please complete previous step"
+    },
+    {
+      "Key": "nopstation.webapi.checkout.onlinepayment",
+      "Value": "Online payment"
+    },
+    {
+      "Key": "nopstation.webapi.checkout.ordercalculation",
+      "Value": "Order calculation"
+    },
+    {
+      "Key": "nopstation.webapi.checkout.selectedattributes",
+      "Value": "Selected attributes"
+    },
+    {
+      "Key": "nopstation.webapi.common.account",
+      "Value": "Account"
+    },
+    {
+      "Key": "nopstation.webapi.common.category",
+      "Value": "Category"
+    },
+    {
+      "Key": "nopstation.webapi.common.done",
+      "Value": "Done"
+    },
+    {
+      "Key": "nopstation.webapi.common.entervalidemail",
+      "Value": "Please enter valid email"
+    },
+    {
+      "Key": "nopstation.webapi.common.home",
+      "Value": "Home"
+    },
+    {
+      "Key": "nopstation.webapi.common.isrequired",
+      "Value": "is Required"
+    },
+    {
+      "Key": "nopstation.webapi.common.more",
+      "Value": "More"
+    },
+    {
+      "Key": "nopstation.webapi.common.nodata",
+      "Value": "No data found"
+    },
+    {
+      "Key": "nopstation.webapi.common.pleasewait",
+      "Value": "Please wait…"
+    },
+    {
+      "Key": "nopstation.webapi.common.select",
+      "Value": "Select"
+    },
+    {
+      "Key": "nopstation.webapi.common.somethingwrong",
+      "Value": "Something went wrong"
+    },
+    {
+      "Key": "nopstation.webapi.creatingaccountlongtext",
+      "Value": "By creating an account on our website, you will be able to shop faster, be up to date on an orders status, and keep track of the orders you have previously made."
+    },
+    {
+      "Key": "nopstation.webapi.filtering.filter",
+      "Value": "Filter"
+    },
+    {
+      "Key": "nopstation.webapi.home.ourcategories",
+      "Value": "Our categories"
+    },
+    {
+      "Key": "nopstation.webapi.home.pressagaintoexit",
+      "Value": "Press again to exit"
+    },
+    {
+      "Key": "nopstation.webapi.home.seeall",
+      "Value": "See All"
+    },
+    {
+      "Key": "nopstation.webapi.login.or",
+      "Value": "Or"
+    },
+    {
+      "Key": "nopstation.webapi.login.password.required",
+      "Value": "Password is required"
+    },
+    {
+      "Key": "nopstation.webapi.loginsuccess",
+      "Value": "Successfully logged in."
+    },
+    {
+      "Key": "nopstation.webapi.loginwithfb",
+      "Value": "Continue with facebook"
+    },
+    {
+      "Key": "nopstation.webapi.nointernet",
+      "Value": "No internet connection"
+    },
+    {
+      "Key": "nopstation.webapi.order.confirmed",
+      "Value": "Order confirmed"
+    },
+    {
+      "Key": "nopstation.webapi.order.daterequested",
+      "Value": "nopstation.webapi.order.daterequested"
+    },
+    {
+      "Key": "nopstation.webapi.order.returnaction",
+      "Value": "nopstation.webapi.order.returnaction"
+    },
+    {
+      "Key": "nopstation.webapi.order.returneditem",
+      "Value": "nopstation.webapi.order.returneditem"
+    },
+    {
+      "Key": "nopstation.webapi.order.returnid",
+      "Value": "nopstation.webapi.order.returnid"
+    },
+    {
+      "Key": "nopstation.webapi.order.returnreason",
+      "Value": "nopstation.webapi.order.returnreason"
+    },
+    {
+      "Key": "nopstation.webapi.order.uploadedfile",
+      "Value": "nopstation.webapi.order.uploadedfile"
+    },
+    {
+      "Key": "nopstation.webapi.otp.expiremsg",
+      "Value": "Otp expaired"
+    },
+    {
+      "Key": "nopstation.webapi.otp.resendbuttonlabel",
+      "Value": "Resend OTP"
+    },
+    {
+      "Key": "nopstation.webapi.otp.submitbuttonlabel",
+      "Value": "submit button label"
+    },
+    {
+      "Key": "nopstation.webapi.otp.subtitle",
+      "Value": "Otp Subtitle"
+    },
+    {
+      "Key": "nopstation.webapi.otp.title",
+      "Value": "Otp title"
+    },
+    {
+      "Key": "nopstation.webapi.privacypolicy",
+      "Value": "Privacy policy"
+    },
+    {
+      "Key": "nopstation.webapi.readbeforecontinue",
+      "Value": "Please read this before continue"
+    },
+    {
+      "Key": "nopstation.webapi.registersavetime",
+      "Value": "Register and save time"
+    },
+    {
+      "Key": "nopstation.webapi.registration.password",
+      "Value": "Password"
+    },
+    {
+      "Key": "nopstation.webapi.registration.personaldetails",
+      "Value": "Personal details"
+    },
+    {
+      "Key": "nopstation.webapi.returningcustomer",
+      "Value": "Returning customer?"
+    },
+    {
+      "Key": "nopstation.webapi.scanbarcode",
+      "Value": "Scan barcode"
+    },
+    {
+      "Key": "nopstation.webapi.settings",
+      "Value": "Settings"
+    },
+    {
+      "Key": "nopstation.webapi.settings.currency",
+      "Value": "Currency"
+    },
+    {
+      "Key": "nopstation.webapi.settings.darktheme",
+      "Value": "Dark theme"
+    },
+    {
+      "Key": "nopstation.webapi.settings.invalidurl",
+      "Value": "Invalid URL"
+    },
+    {
+      "Key": "nopstation.webapi.settings.language",
+      "Value": "Language"
+    },
+    {
+      "Key": "nopstation.webapi.settings.nopcommerceurl",
+      "Value": "Your nopCommerce URL"
+    },
+    {
+      "Key": "nopstation.webapi.settings.setdefault",
+      "Value": "Set default URL"
+    },
+    {
+      "Key": "nopstation.webapi.settings.test",
+      "Value": "Test"
+    },
+    {
+      "Key": "nopstation.webapi.shoppingcart.buynow",
+      "Value": "Buy Now"
+    },
+    {
+      "Key": "nopstation.webapi.shoppingcart.donation.enterprice",
+      "Value": "Please enter your price:"
+    },
+    {
+      "Key": "nopstation.webapi.shoppingcart.donation.enterprice.required",
+      "Value": "Price required"
+    },
+    {
+      "Key": "nopstation.webapi.shoppingcart.rentnow",
+      "Value": "Rent now"
+    },
+    {
+      "Key": "nopstation.webapi.sliders.fields.entityid.invalidproduct",
+      "Value": "Product is not valid."
+    },
+    {
+      "Key": "nopstation.webapi.tryagain",
+      "Value": "Try again"
+    },
+    {
+      "Key": "nopstation.webapi.update.label",
+      "Value": "Update new version"
+    },
+    {
+      "Key": "nopstation.webapi.update.msg",
+      "Value": "The current version of the appilication is no longer supported. Please update the app."
+    },
+    {
+      "Key": "nopstation.webapi.updated",
+      "Value": "Successfully updated"
+    },
+    {
+      "Key": "nopstation.webapi.wishlist.addall",
+      "Value": "Add all items to cart"
+    },
+    {
+      "Key": "order.email",
+      "Value": "البريد الإلكتروني"
+    },
+    {
+      "Key": "order.payment.method",
+      "Value": "طريقة الدفع"
+    },
+    {
+      "Key": "order.phone",
+      "Value": "رقم الهاتف"
+    },
+    {
+      "Key": "order.pickupaddress",
+      "Value": "عنوان نقطة الالتقاط"
+    },
+    {
+      "Key": "order.product(s).price",
+      "Value": "السعر"
+    },
+    {
+      "Key": "order.product(s).quantity",
+      "Value": "الكمية"
+    },
+    {
+      "Key": "order.product(s).sku",
+      "Value": "كود المخزن"
+    },
+    {
+      "Key": "order.reorder",
+      "Value": "إعادة الطلب"
+    },
+    {
+      "Key": "order.retrypayment",
+      "Value": "إعادة محاولة الدفع"
+    },
+    {
+      "Key": "order.returnitems",
+      "Value": "المنتجات المرتجعة"
+    },
+    {
+      "Key": "order.rewardpoints",
+      "Value": "{0} نقاط مكافئة"
+    },
+    {
+      "Key": "order.shipments",
+      "Value": "شحنات"
+    },
+    {
+      "Key": "order.shipments.deliverydate",
+      "Value": "تاريخ تسليمها"
+    },
+    {
+      "Key": "order.shipments.id",
+      "Value": "شحنة #"
+    },
+    {
+      "Key": "order.shipments.product(s).quantity",
+      "Value": "الكمية التي يتم شحنها"
+    },
+    {
+      "Key": "order.shipments.shippeddate",
+      "Value": "تاريخ شحنها"
+    },
+    {
+      "Key": "order.shipments.trackingnumber",
+      "Value": "أرقام التتبع"
+    },
+    {
+      "Key": "order.shipping.name",
+      "Value": "طريقة الشحن"
+    },
+    {
+      "Key": "pagetitle.account",
+      "Value": "الحساب"
+    },
+    {
+      "Key": "pagetitle.compareproducts",
+      "Value": "مقرانة المنتجات"
+    },
+    {
+      "Key": "pagetitle.newproducts",
+      "Value": "المنتجات الجديدة"
+    },
+    {
+      "Key": "pagetitle.orderdetails",
+      "Value": "تفاصيل الطلب"
+    },
+    {
+      "Key": "pagetitle.recentlyviewedproducts",
+      "Value": "منتجات شوهدت مؤخرا"
+    },
+    {
+      "Key": "pagetitle.register",
+      "Value": "تسجيل جديد"
+    },
+    {
+      "Key": "pagetitle.search",
+      "Value": "بحث"
+    },
+    {
+      "Key": "pagetitle.shipmentdetails",
+      "Value": "تفاصيل الشحن"
+    },
+    {
+      "Key": "pagetitle.shoppingcart",
+      "Value": "عربة التسوق"
+    },
+    {
+      "Key": "products.alsopurchased",
+      "Value": "العملاء الذين اشتروا هذا المنتج اشتروا أيضا"
+    },
+    {
+      "Key": "products.availability",
+      "Value": "التوفر"
+    },
+    {
+      "Key": "products.compare",
+      "Value": "قارن بين المنتجات"
+    },
+    {
+      "Key": "products.compare.list",
+      "Value": "المنتجات فى المقارنة"
+    },
+    {
+      "Key": "products.compare.title",
+      "Value": "قارن بين المنتجات"
+    },
+    {
+      "Key": "products.deliverydate",
+      "Value": "تاريخ التوصيل"
+    },
+    {
+      "Key": "products.freeshipping",
+      "Value": "شحن مجاني"
+    },
+    {
+      "Key": "products.giftcard.message",
+      "Value": "كلمة البحث"
+    },
+    {
+      "Key": "products.giftcard.recipientemail",
+      "Value": "البريد الإلكتروني للمستلم"
+    },
+    {
+      "Key": "products.giftcard.recipientname",
+      "Value": "اسم المستقبل"
+    },
+    {
+      "Key": "products.giftcard.senderemail",
+      "Value": "بريدك الإلكتروني"
+    },
+    {
+      "Key": "products.giftcard.sendername",
+      "Value": "اسمك"
+    },
+    {
+      "Key": "products.manufacturer",
+      "Value": "الشركة"
+    },
+    {
+      "Key": "products.producthasbeenaddedtothecart",
+      "Value": "تمت إضافة المنتج إلى سلة التسوق الخاصة بك"
+    },
+    {
+      "Key": "products.producthasbeenaddedtothewishlist",
+      "Value": "تمت إضافة المنتج إلى المفضلة"
+    },
+    {
+      "Key": "products.relatedproducts",
+      "Value": "منتجات ذات صلة"
+    },
+    {
+      "Key": "products.sku",
+      "Value": "كود المخزن"
+    },
+    {
+      "Key": "products.specs",
+      "Value": "مواصفات المنتج"
+    },
+    {
+      "Key": "products.tags",
+      "Value": "علامات المنتج"
+    },
+    {
+      "Key": "products.tierprices.price",
+      "Value": "السعر"
+    },
+    {
+      "Key": "products.tierprices.quantity",
+      "Value": "الكمية"
+    },
+    {
+      "Key": "products.vendor",
+      "Value": "البائع"
+    },
+    {
+      "Key": "returnrequests.comments",
+      "Value": "التعليقات"
+    },
+    {
+      "Key": "returnrequests.products.quantity",
+      "Value": "الكمية المرتجعة"
+    },
+    {
+      "Key": "returnrequests.returnaction",
+      "Value": "الإرتجاع"
+    },
+    {
+      "Key": "returnrequests.returnreason",
+      "Value": "السبب"
+    },
+    {
+      "Key": "returnrequests.selectproduct(s)",
+      "Value": "ما هي المنتجات التي تريد إعادتها؟"
+    },
+    {
+      "Key": "returnrequests.submit",
+      "Value": "إرسال الطلب"
+    },
+    {
+      "Key": "returnrequests.uploadedfile",
+      "Value": "تحميل (أي مستند إضافي، وما إلى ذلك "
+    },
+    {
+      "Key": "returnrequests.whyreturning",
+      "Value": "لماذا تريد إعادة هذه المنتجات؟"
+    },
+    {
+      "Key": "reviews",
+      "Value": "التقييم"
+    },
+    {
+      "Key": "reviews.fields.rating",
+      "Value": "التقيم"
+    },
+    {
+      "Key": "reviews.fields.reviewtext",
+      "Value": "نص التقييم"
+    },
+    {
+      "Key": "reviews.fields.reviewtext.required",
+      "Value": "نص التقييم مطلوب"
+    },
+    {
+      "Key": "reviews.fields.title",
+      "Value": "عنوان التقييم"
+    },
+    {
+      "Key": "reviews.fields.title.required",
+      "Value": "يرجي إدخال عنوان التقييم"
+    },
+    {
+      "Key": "reviews.helpfulness.washelpful?",
+      "Value": "هل كان هذا التقييم مفيد؟"
+    },
+    {
+      "Key": "reviews.submitbutton",
+      "Value": "أرسل التقييم"
+    },
+    {
+      "Key": "reviews.write",
+      "Value": "كتابة التقييم الخاص بك"
+    },
+    {
+      "Key": "rewardpoints.currentbalance",
+      "Value": "رصيدك الحالي هو {0} نقاط مكافأة ({1})."
+    },
+    {
+      "Key": "rewardpoints.fields.createddate",
+      "Value": "التاريخ"
+    },
+    {
+      "Key": "rewardpoints.fields.enddate",
+      "Value": "تاريخ النهاية"
+    },
+    {
+      "Key": "rewardpoints.fields.message",
+      "Value": "كلمة البحث"
+    },
+    {
+      "Key": "rewardpoints.fields.points",
+      "Value": "نقاط"
+    },
+    {
+      "Key": "rewardpoints.fields.pointsbalance",
+      "Value": "رصيد النقاط"
+    },
+    {
+      "Key": "rewardpoints.minimumbalance",
+      "Value": "الحد الأدنى للرصيد المسموح به هو {0} نقاط المكافأة ({1})."
+    },
+    {
+      "Key": "rewardpoints.nohistory",
+      "Value": "ليس هناك تاريخ نقاط حتى الآن"
+    },
+    {
+      "Key": "search.advancedsearch",
+      "Value": "بحث مفصل"
+    },
+    {
+      "Key": "search.button",
+      "Value": "بحث"
+    },
+    {
+      "Key": "search.category",
+      "Value": "القسم"
+    },
+    {
+      "Key": "search.entersearchterms",
+      "Value": "أدخل كلمة البحث"
+    },
+    {
+      "Key": "search.includesubcategories",
+      "Value": "البحث فى الأقسام الفرعية"
+    },
+    {
+      "Key": "search.manufacturer",
+      "Value": "الشركة"
+    },
+    {
+      "Key": "search.noresultstext",
+      "Value": "search.noresultstext"
+    },
+    {
+      "Key": "search.pricerange",
+      "Value": "search.pricerange"
+    },
+    {
+      "Key": "search.pricerange.from",
+      "Value": "search.pricerange.from"
+    },
+    {
+      "Key": "search.pricerange.to",
+      "Value": "search.pricerange.to"
+    },
+    {
+      "Key": "search.searchbox.searchpagelink",
+      "Value": "عرض جميع النتائج..."
+    },
+    {
+      "Key": "search.searchbox.text.label",
+      "Value": "متجر البحث"
+    },
+    {
+      "Key": "search.searchbox.tooltip",
+      "Value": "متجر البحث"
+    },
+    {
+      "Key": "search.searchindescriptions",
+      "Value": "البحث فى الوصف"
+    },
+    {
+      "Key": "search.searchterm",
+      "Value": "كلمة البحث"
+    },
+    {
+      "Key": "search.searchtermminimumlengthisncharacters",
+      "Value": "عبارة البحث الحد الأدنى للطول هو {0} حرفا"
+    },
+    {
+      "Key": "search.vendor",
+      "Value": "البائع"
+    },
+    {
+      "Key": "shipping.estimateshippingpopup.chooseshippingtitle",
+      "Value": "طريقة الشحن"
+    },
+    {
+      "Key": "shipping.estimateshippingpopup.country",
+      "Value": "الدولة"
+    },
+    {
+      "Key": "shipping.estimateshippingpopup.noshippingoptions",
+      "Value": "لا توجد خيارات شحن"
+    },
+    {
+      "Key": "shipping.estimateshippingpopup.selectshippingoption.button",
+      "Value": "طبّق"
+    },
+    {
+      "Key": "shipping.estimateshippingpopup.shippingoption.estimateddelivery",
+      "Value": "تاريخ الوصول المتوقع"
+    },
+    {
+      "Key": "shipping.estimateshippingpopup.shippingoption.name",
+      "Value": "الاسم"
+    },
+    {
+      "Key": "shipping.estimateshippingpopup.shippingoption.price",
+      "Value": "السعر"
+    },
+    {
+      "Key": "shipping.estimateshippingpopup.shiptotitle",
+      "Value": "شحن إلى"
+    },
+    {
+      "Key": "shipping.estimateshippingpopup.stateprovince",
+      "Value": "المدينة"
+    },
+    {
+      "Key": "shipping.estimateshippingpopup.zippostalcode",
+      "Value": "الرقم البريدي"
+    },
+    {
+      "Key": "shoppingcart.addtocart",
+      "Value": "أضف للسلة"
+    },
+    {
+      "Key": "shoppingcart.addtowishlist",
+      "Value": "أضف للمفضلة"
+    },
+    {
+      "Key": "shoppingcart.buyingdisabled",
+      "Value": "تم تعطيل الشراء لهذا المنتج"
+    },
+    {
+      "Key": "shoppingcart.cartisempty",
+      "Value": "لا يوجد منتجات فى سلة التسوق"
+    },
+    {
+      "Key": "shoppingcart.discountcouponcode.button",
+      "Value": "تفعيل الكود"
+    },
+    {
+      "Key": "shoppingcart.discountcouponcode.currentcode",
+      "Value": "كود الخصم المستخدم - {0}"
+    },
+    {
+      "Key": "shoppingcart.discountcouponcode.tooltip",
+      "Value": "أكتب كود الخصم هنا"
+    },
+    {
+      "Key": "shoppingcart.estimateshipping.button",
+      "Value": "تقدير الشحن"
+    },
+    {
+      "Key": "shoppingcart.giftcardcouponcode.button",
+      "Value": "أضف بطاقة هدية"
+    },
+    {
+      "Key": "shoppingcart.giftcardcouponcode.tooltip",
+      "Value": "أدخل رقم بطاقة الهدية"
+    },
+    {
+      "Key": "shoppingcart.itemyousave",
+      "Value": "لقد وفرت: {0}"
+    },
+    {
+      "Key": "shoppingcart.maximumuploadedfilesize",
+      "Value": "الحد الأقصى لحجم الملف هو {0} كيلو بايت"
+    },
+    {
+      "Key": "shoppingcart.mini.items",
+      "Value": "{0} منتج"
+    },
+    {
+      "Key": "shoppingcart.preorder",
+      "Value": "طلب مسبق"
+    },
+    {
+      "Key": "shoppingcart.product(s)",
+      "Value": "منتج"
+    },
+    {
+      "Key": "shoppingcart.quantityshouldpositive",
+      "Value": "الكمية يجب أن تكون رقم صحيح"
+    },
+    {
+      "Key": "shoppingcart.rent",
+      "Value": "إيجار"
+    },
+    {
+      "Key": "shoppingcart.rental.enterenddate",
+      "Value": "ادخل تاريج نهاية الإيجار"
+    },
+    {
+      "Key": "shoppingcart.rental.enterstartdate",
+      "Value": "أدخل تاريخ بدء الإيجار"
+    },
+    {
+      "Key": "shoppingcart.totals.calculatedduringcheckout",
+      "Value": "تحسب عند الدفع"
+    },
+    {
+      "Key": "shoppingcart.totals.giftcardinfo",
+      "Value": "بطاقة هدية"
+    },
+    {
+      "Key": "shoppingcart.totals.giftcardinfo.remaining",
+      "Value": "{0} المتبقي"
+    },
+    {
+      "Key": "shoppingcart.totals.ordertotal",
+      "Value": "الإجمالي"
+    },
+    {
+      "Key": "shoppingcart.totals.paymentmethodadditionalfee",
+      "Value": "طريقة الدفع رسوم إضافية"
+    },
+    {
+      "Key": "shoppingcart.totals.rewardpoints.willearn",
+      "Value": "سوف تربح"
+    },
+    {
+      "Key": "shoppingcart.totals.rewardpoints.willearn.point",
+      "Value": "{0} نقطة"
+    },
+    {
+      "Key": "shoppingcart.totals.shipping",
+      "Value": "الشحن"
+    },
+    {
+      "Key": "shoppingcart.totals.subtotal",
+      "Value": "الإجمالي الفرعي"
+    },
+    {
+      "Key": "shoppingcart.totals.subtotaldiscount",
+      "Value": "الخصم"
+    },
+    {
+      "Key": "shoppingcart.totals.tax",
+      "Value": "ضريبة"
+    },
+    {
+      "Key": "shoppingcart.wishlistdisabled",
+      "Value": "المفضلة غير متاحة لهذا المنتج"
+    },
+    {
+      "Key": "sitemap.products",
+      "Value": "المنتجات"
+    },
+    {
+      "Key": "wishlist",
+      "Value": "الرغبات"
+    },
+    {
+      "Key": "wishlist.cartisempty",
+      "Value": "لا يوجد منتجات فى قائمتك المفضلة"
+    }
+  ]
+}
