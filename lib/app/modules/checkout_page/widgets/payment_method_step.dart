@@ -3,15 +3,15 @@ import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/action_buttons/action_button.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani_mobile_app/app/global_widget/images_and_videos_widgets/app_image_loader.dart' show AppImageLoader;
-import 'package:sakani_mobile_app/app/global_widget/my_card_design.dart';
-import 'package:sakani_mobile_app/app/modules/checkout_page/checkout_shared_mixin.dart';
-import 'package:sakani_mobile_app/app/services/bas_service_configs/bas_service.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/global_widget/action_buttons/action_button.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:sakani/app/global_widget/images_and_videos_widgets/app_image_loader.dart' show AppImageLoader;
+import 'package:sakani/app/global_widget/my_card_design.dart';
+import 'package:sakani/app/modules/checkout_page/checkout_shared_mixin.dart';
+import 'package:sakani/app/services/bas_service_configs/bas_service.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 
 import '../../../core/language_and_localization/app_strings.dart';
 

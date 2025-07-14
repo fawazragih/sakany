@@ -1,4 +1,4 @@
-// import 'package:sakani_mobile_app/app/data/models/product_summary.dart';
+// import 'package:sakani/app/data/models/product_summary.dart';
 //
 //
 // class BestSellerProductResponse {

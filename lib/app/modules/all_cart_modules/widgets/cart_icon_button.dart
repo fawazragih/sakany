@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
-import 'package:sakani_mobile_app/app/global_widget/my_card_design.dart';
-import 'package:sakani_mobile_app/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
+import 'package:sakani/app/global_widget/my_card_design.dart';
+import 'package:sakani/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
 
 class CartIconButton extends StatelessWidget {
   final double? topMargin;

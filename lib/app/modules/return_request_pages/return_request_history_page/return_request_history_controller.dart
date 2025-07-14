@@ -1,11 +1,11 @@
 import 'package:app_extensions/app_extensions.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani_mobile_app/app/data/models/file_download_response.dart';
-import 'package:sakani_mobile_app/app/data/models/return_request_history_response.dart';
-import 'package:sakani_mobile_app/app/modules/return_request_pages/repository/return_request_repository.dart';
-import 'package:sakani_mobile_app/app/utils/app_permission_handler.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/core/language_and_localization/app_strings.dart';
+import 'package:sakani/app/data/models/file_download_response.dart';
+import 'package:sakani/app/data/models/return_request_history_response.dart';
+import 'package:sakani/app/modules/return_request_pages/repository/return_request_repository.dart';
+import 'package:sakani/app/utils/app_permission_handler.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 
 import '../../../data/api_providers/base_configs/handling_dio_response.dart';
 

@@ -1,14 +1,14 @@
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/api_paths.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/base_api.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/share_api.dart';
-import 'package:sakani_mobile_app/app/data/models/bas_checkout_payment_info.dart';
-import 'package:sakani_mobile_app/app/data/models/get_billing_address_response.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/form_values_request_body.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/save_billing_req_body.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/save_payment_req_body.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/save_shipping_req_body.dart';
-import 'package:sakani_mobile_app/app/data/models/save_billing_response.dart';
+import 'package:sakani/app/data/api_providers/base_configs/api_paths.dart';
+import 'package:sakani/app/data/api_providers/base_configs/base_api.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/api_providers/share_api.dart';
+import 'package:sakani/app/data/models/bas_checkout_payment_info.dart';
+import 'package:sakani/app/data/models/get_billing_address_response.dart';
+import 'package:sakani/app/data/models/requestbody/form_values_request_body.dart';
+import 'package:sakani/app/data/models/requestbody/save_billing_req_body.dart';
+import 'package:sakani/app/data/models/requestbody/save_payment_req_body.dart';
+import 'package:sakani/app/data/models/requestbody/save_shipping_req_body.dart';
+import 'package:sakani/app/data/models/save_billing_response.dart';
 
 import 'api_response_models/general_response_model.dart';
 

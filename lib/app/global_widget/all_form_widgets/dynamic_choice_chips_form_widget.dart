@@ -4,8 +4,8 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/helpers_methods.dart';
-import 'package:sakani_mobile_app/app/global_widget/horizontal_list_builder.dart';
+import 'package:sakani/app/base_controllers_and_listeners/helpers_methods.dart';
+import 'package:sakani/app/global_widget/horizontal_list_builder.dart';
 import '../app_ui_helper/ui_helpers.dart';
 
 class DynamicChoiceChipsFormWidget<T> extends StatelessWidget {

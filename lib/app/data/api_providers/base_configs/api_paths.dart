@@ -1,4 +1,4 @@
-import 'package:sakani_mobile_app/app/utils/api_env_config/api_env_setter.dart';
+import 'package:sakani/app/utils/api_env_config/api_env_setter.dart';
 
 class ApiEndpoints {
   ApiEndpoints._();

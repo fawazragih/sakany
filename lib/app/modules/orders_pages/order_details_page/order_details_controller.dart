@@ -1,19 +1,19 @@
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/models/file_download_response.dart';
-import 'package:sakani_mobile_app/app/data/models/order_details_response.dart';
-import 'package:sakani_mobile_app/app/modules/all_cart_modules/shopping_cart_page/shopping_cart_view.dart';
-import 'package:sakani_mobile_app/app/modules/checkout_page/checkout_shared_mixin.dart';
-import 'package:sakani_mobile_app/app/modules/checkout_page/widgets/checkout_web_view/arguments/checkout_web_view_argument.dart';
-import 'package:sakani_mobile_app/app/modules/checkout_page/widgets/checkout_web_view/checkout_web_view.dart';
-import 'package:sakani_mobile_app/app/modules/orders_pages/repository/order_repository.dart';
-import 'package:sakani_mobile_app/app/modules/products_details_screen/products_details_view.dart';
-import 'package:sakani_mobile_app/app/modules/tabs_screen/tabs_screen_view.dart';
-import 'package:sakani_mobile_app/app/utils/app_permission_handler.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/core/language_and_localization/app_strings.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/models/file_download_response.dart';
+import 'package:sakani/app/data/models/order_details_response.dart';
+import 'package:sakani/app/modules/all_cart_modules/shopping_cart_page/shopping_cart_view.dart';
+import 'package:sakani/app/modules/checkout_page/checkout_shared_mixin.dart';
+import 'package:sakani/app/modules/checkout_page/widgets/checkout_web_view/arguments/checkout_web_view_argument.dart';
+import 'package:sakani/app/modules/checkout_page/widgets/checkout_web_view/checkout_web_view.dart';
+import 'package:sakani/app/modules/orders_pages/repository/order_repository.dart';
+import 'package:sakani/app/modules/products_details_screen/products_details_view.dart';
+import 'package:sakani/app/modules/tabs_screen/tabs_screen_view.dart';
+import 'package:sakani/app/utils/app_permission_handler.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 import '../../products_details_screen/arguments/product_details_screen_arguments.dart';
 
 class OrderDetailsController extends BaseController {

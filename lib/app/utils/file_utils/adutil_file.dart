@@ -3,10 +3,10 @@ import 'dart:io';
 import 'dart:math';
 import 'package:file_picker/file_picker.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/file_download_response.dart';
-import 'package:sakani_mobile_app/app/services/notification_service/local_notification_services.dart';
+import 'package:sakani/app/data/models/file_download_response.dart';
+import 'package:sakani/app/services/notification_service/local_notification_services.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 
 class AdUtilFiles {
   static Future<String?> checkAndCreateDirInApplicationDocDir(

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/user_auth_controller.dart';
-import 'package:sakani_mobile_app/app/modules/auth_module/forget_password_screen/forget_password_view.dart';
-import 'package:sakani_mobile_app/app/modules/auth_module/login_screen/login_view.dart';
-import 'package:sakani_mobile_app/app/modules/auth_module/signup_screen/signup_screen.dart';
-import 'package:sakani_mobile_app/app/modules/intro_guides_page/intro_guides_view.dart';
+import 'package:sakani/app/base_controllers_and_listeners/user_auth_controller.dart';
+import 'package:sakani/app/modules/auth_module/forget_password_screen/forget_password_view.dart';
+import 'package:sakani/app/modules/auth_module/login_screen/login_view.dart';
+import 'package:sakani/app/modules/auth_module/signup_screen/signup_screen.dart';
+import 'package:sakani/app/modules/intro_guides_page/intro_guides_view.dart';
 import '../data/local_data/setting_app_service.dart';
 import '../modules/tabs_screen/tabs_screen_view.dart';
 import '../utils/api_env_config/app_logger_config.dart';

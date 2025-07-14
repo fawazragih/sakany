@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sakani_mobile_app/main.dart';
+import 'package:sakani/main.dart';
 
 class AppLanguage {
   //final String flag; //  emoji flag are string "🇺🇸" "🇸🇦"

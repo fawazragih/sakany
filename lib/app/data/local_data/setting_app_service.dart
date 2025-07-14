@@ -3,9 +3,9 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:sakani_mobile_app/app/core/assets_helpers/app_json.dart';
-import 'package:sakani_mobile_app/app/data/models/app_landing_response.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/core/assets_helpers/app_json.dart';
+import 'package:sakani/app/data/models/app_landing_response.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 
 import '../models/slider_aspect_ratio.dart';
 

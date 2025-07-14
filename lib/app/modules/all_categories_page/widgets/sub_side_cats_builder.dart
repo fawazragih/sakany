@@ -2,10 +2,10 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani_mobile_app/app/data/models/category_tree/category_tree_response.dart';
-import 'package:sakani_mobile_app/app/global_widget/empty_data_widget.dart';
-import 'package:sakani_mobile_app/app/global_widget/generic_image_and_name_template.dart';
+import 'package:sakani/app/core/language_and_localization/app_strings.dart';
+import 'package:sakani/app/data/models/category_tree/category_tree_response.dart';
+import 'package:sakani/app/global_widget/empty_data_widget.dart';
+import 'package:sakani/app/global_widget/generic_image_and_name_template.dart';
 
 class SubSideCatsBuilder extends StatelessWidget {
   final List<CategoryTreeResponseData> sideSubCatsList;

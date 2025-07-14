@@ -2,9 +2,9 @@
 // import 'package:auto_direction/auto_direction.dart';
 // import 'package:auto_size_text/auto_size_text.dart';
 // import 'package:flutter/material.dart';
-// import 'package:sakani_mobile_app/app/data/models/product_summary.dart';
-// import 'package:sakani_mobile_app/app/global_widget/images_and_videos_widgets/adutils_image_loader.dart';
-// import 'package:sakani_mobile_app/app/global_widget/my_card_design.dart';
+// import 'package:sakani/app/data/models/product_summary.dart';
+// import 'package:sakani/app/global_widget/images_and_videos_widgets/adutils_image_loader.dart';
+// import 'package:sakani/app/global_widget/my_card_design.dart';
 // import '../../../../global_widget/app_ui_helper/ui_helpers.dart';
 // import '../../../../global_widget/global_price_widget.dart';
 //

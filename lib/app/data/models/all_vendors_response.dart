@@ -1,4 +1,4 @@
-import 'package:sakani_mobile_app/app/data/models/picture_model.dart';
+import 'package:sakani/app/data/models/picture_model.dart';
 
 import 'catalog_products_model.dart';
 import 'custom_properties.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/product_summary.dart';
+import 'package:sakani/app/data/models/product_summary.dart';
 import '../../../core/language_and_localization/app_strings.dart';
 import '../../../global_widget/app_ui_helper/ui_helpers.dart';
 import 'add_to_cart_controller.dart';

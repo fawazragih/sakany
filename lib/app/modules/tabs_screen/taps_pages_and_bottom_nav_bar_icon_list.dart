@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sakani_mobile_app/app/modules/all_categories_page/categories_view.dart';
-import 'package:sakani_mobile_app/app/modules/home_page/home_view.dart';
-import 'package:sakani_mobile_app/app/modules/search_page/search_view.dart';
-import 'package:sakani_mobile_app/app/modules/user_profile_screen/user_profile_screen.dart';
+import 'package:sakani/app/modules/all_categories_page/categories_view.dart';
+import 'package:sakani/app/modules/home_page/home_view.dart';
+import 'package:sakani/app/modules/search_page/search_view.dart';
+import 'package:sakani/app/modules/user_profile_screen/user_profile_screen.dart';
 import '../account_screen/account_view.dart';
 
 

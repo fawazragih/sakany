@@ -1,11 +1,11 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sakani_mobile_app/app/global_widget/all_form_widgets/check_box_form_field.dart';
-import 'package:sakani_mobile_app/app/global_widget/all_form_widgets/drop_down_menu_form_field_widget.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani_mobile_app/app/global_widget/bottome_sheet_widgets/bottom_sheet_top_container.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/global_widget/all_form_widgets/check_box_form_field.dart';
+import 'package:sakani/app/global_widget/all_form_widgets/drop_down_menu_form_field_widget.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:sakani/app/global_widget/bottome_sheet_widgets/bottom_sheet_top_container.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 import '../../../data/models/available_option.dart';
 import '../../../data/models/search_response.dart';
 

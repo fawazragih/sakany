@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/models/address_list_response.dart';
-import 'package:sakani_mobile_app/app/data/models/get_billing_address_response.dart';
-import 'package:sakani_mobile_app/app/modules/address_list_page/add_or_edit_address_page/add_or_edit_address_view.dart';
-import 'package:sakani_mobile_app/app/utils/constants/app_constants.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/models/address_list_response.dart';
+import 'package:sakani/app/data/models/get_billing_address_response.dart';
+import 'package:sakani/app/modules/address_list_page/add_or_edit_address_page/add_or_edit_address_view.dart';
+import 'package:sakani/app/utils/constants/app_constants.dart';
 
 import '../../utils/api_env_config/app_logger_config.dart';
 import 'add_or_edit_address_page/arguments/add_or_edit_address_page_args.dart';

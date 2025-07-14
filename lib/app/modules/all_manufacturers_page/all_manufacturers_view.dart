@@ -1,11 +1,11 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/home/manufacturers_response.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani_mobile_app/app/global_widget/my_card_design.dart';
-import 'package:sakani_mobile_app/app/global_widget/screen_status_widgets.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/data/models/home/manufacturers_response.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:sakani/app/global_widget/my_card_design.dart';
+import 'package:sakani/app/global_widget/screen_status_widgets.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 import '../../global_widget/app_bar_widgets/custom_app_bar.dart';
 import '../../global_widget/images_and_videos_widgets/app_image_loader.dart';
 import '../product_list_page/argument/product_list_argument.dart';

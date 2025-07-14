@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/my_card_design.dart';
+import 'package:sakani/app/global_widget/my_card_design.dart';
 
 class AppBackButton extends StatelessWidget {
   final Color? backgroundColor;

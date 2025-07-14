@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/loading_progress_bar.dart';
+import 'package:sakani/app/global_widget/loading_progress_bar.dart';
 import '../../global_widget/app_ui_helper/shared_style.dart';
 import '../../global_widget/app_ui_helper/ui_helpers.dart';
 import 'home_controller.dart';

@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/get_billing_address_response.dart';
-import 'package:sakani_mobile_app/app/global_widget/action_buttons/action_button.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani_mobile_app/app/modules/all_cart_modules/shopping_cart_page/widgets/cart_list_item.dart';
-import 'package:sakani_mobile_app/app/modules/all_cart_modules/shopping_cart_page/widgets/order_total_table.dart';
-import 'package:sakani_mobile_app/app/modules/checkout_page/checkout_shared_mixin.dart';
-import 'package:sakani_mobile_app/app/modules/products_details_screen/widgets/full_description_widget.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/data/models/get_billing_address_response.dart';
+import 'package:sakani/app/global_widget/action_buttons/action_button.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:sakani/app/modules/all_cart_modules/shopping_cart_page/widgets/cart_list_item.dart';
+import 'package:sakani/app/modules/all_cart_modules/shopping_cart_page/widgets/order_total_table.dart';
+import 'package:sakani/app/modules/checkout_page/checkout_shared_mixin.dart';
+import 'package:sakani/app/modules/products_details_screen/widgets/full_description_widget.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 
 import '../../../global_widget/my_card_design.dart';
 

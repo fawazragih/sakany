@@ -1,4 +1,4 @@
-// import 'package:sakani_mobile_app/app/data/api_providers/app_config_settings_api.dart';
+// import 'package:sakani/app/data/api_providers/app_config_settings_api.dart';
 //
 // class AppConfigAndSettingsRepository {
 //   final AppConfigAndSettingsApi _api = AppConfigAndSettingsApi();

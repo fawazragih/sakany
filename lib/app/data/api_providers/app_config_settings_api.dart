@@ -1,8 +1,8 @@
-// import 'package:sakani_mobile_app/app/data/api_providers/base_configs/base_api.dart';
-// import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-// import 'package:sakani_mobile_app/app/data/models/app_slider.dart';
-// import 'package:sakani_mobile_app/app/data/models/currency_model.dart';
-// import 'package:sakani_mobile_app/app/data/models/app_setting.dart';
+// import 'package:sakani/app/data/api_providers/base_configs/base_api.dart';
+// import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+// import 'package:sakani/app/data/models/app_slider.dart';
+// import 'package:sakani/app/data/models/currency_model.dart';
+// import 'package:sakani/app/data/models/app_setting.dart';
 //
 // import '../models/api_response_models/general_response_model.dart';
 // import 'base_configs/api_paths.dart';

@@ -1,6 +1,6 @@
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/data/models/home/manufacturers_response.dart';
-import 'package:sakani_mobile_app/app/modules/home_page/repository/home_repository.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/data/models/home/manufacturers_response.dart';
+import 'package:sakani/app/modules/home_page/repository/home_repository.dart';
 import '../../../../data/api_providers/base_configs/handling_dio_response.dart';
 
 class ManufacturerSliderController extends BaseController {

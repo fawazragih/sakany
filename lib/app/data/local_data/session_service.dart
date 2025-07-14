@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 
 import '../models/user_login_response.dart';
 

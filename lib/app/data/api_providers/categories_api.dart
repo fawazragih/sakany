@@ -1,5 +1,5 @@
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/base_api.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/pagination_logic.dart';
+import 'package:sakani/app/data/api_providers/base_configs/base_api.dart';
+import 'package:sakani/app/data/api_providers/base_configs/pagination_logic.dart';
 
 
 class CategoriesAndChannelApi extends BaseApi {

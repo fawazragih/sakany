@@ -1,5 +1,5 @@
-import 'package:sakani_mobile_app/app/data/models/estimate_shipping.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/form_value.dart';
+import 'package:sakani/app/data/models/estimate_shipping.dart';
+import 'package:sakani/app/data/models/requestbody/form_value.dart';
 
 class EstimateShippingReqBody {
   EstimateShippingReqBody({

@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
-import 'package:sakani_mobile_app/app/global_widget/images_and_videos_widgets/app_image_loader.dart';
-import 'package:sakani_mobile_app/app/global_widget/my_card_design.dart';
-import 'package:sakani_mobile_app/app/global_widget/rating_widget.dart';
-import 'package:sakani_mobile_app/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
-import 'package:sakani_mobile_app/app/modules/products_details_screen/arguments/product_details_screen_arguments.dart';
-import 'package:sakani_mobile_app/app/modules/products_details_screen/products_details_view.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
-import 'package:sakani_mobile_app/main.dart';
+import 'package:sakani/app/global_widget/images_and_videos_widgets/app_image_loader.dart';
+import 'package:sakani/app/global_widget/my_card_design.dart';
+import 'package:sakani/app/global_widget/rating_widget.dart';
+import 'package:sakani/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
+import 'package:sakani/app/modules/products_details_screen/arguments/product_details_screen_arguments.dart';
+import 'package:sakani/app/modules/products_details_screen/products_details_view.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:sakani/main.dart';
 import '../../../../data/models/product_summary.dart';
 
 class MyCustomClipper extends CustomClipper<Path> {

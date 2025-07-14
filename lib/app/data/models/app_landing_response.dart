@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:sakani_mobile_app/app/core/language_and_localization/languages_list.dart';
+import 'package:sakani/app/core/language_and_localization/languages_list.dart';
 
 import 'custom_properties.dart';
 

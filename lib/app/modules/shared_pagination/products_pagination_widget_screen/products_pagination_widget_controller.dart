@@ -1,7 +1,7 @@
 // import 'package:flutter/foundation.dart';
-// import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-// import 'package:sakani_mobile_app/app/data/models/filter_model.dart';
-// import 'package:sakani_mobile_app/app/data/models/product_summary.dart';
+// import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+// import 'package:sakani/app/data/models/filter_model.dart';
+// import 'package:sakani/app/data/models/product_summary.dart';
 //
 // import '../../../base_controllers_and_listeners/pagination_logic_controller.dart';
 // import '../../../utils/refresh_data_listener.dart';

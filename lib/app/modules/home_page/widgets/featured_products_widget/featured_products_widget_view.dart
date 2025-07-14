@@ -2,10 +2,10 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/empty_data_widget.dart';
-import 'package:sakani_mobile_app/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
-import 'package:sakani_mobile_app/app/global_widget/shimmer_list.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/global_widget/empty_data_widget.dart';
+import 'package:sakani/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
+import 'package:sakani/app/global_widget/shimmer_list.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 import '../product_box/horizontal_product_list.dart';
 import 'featured_products_controller.dart';
 

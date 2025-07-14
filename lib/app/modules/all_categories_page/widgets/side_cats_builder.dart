@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/category_tree/category_tree_response.dart';
+import 'package:sakani/app/data/models/category_tree/category_tree_response.dart';
 
 import '../../../global_widget/my_card_design.dart';
 

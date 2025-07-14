@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
-import 'package:sakani_mobile_app/app/data/models/product_details_response.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_bar_widgets/customizable_space_bar.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:sakani/app/data/models/product_details_response.dart';
+import 'package:sakani/app/global_widget/app_bar_widgets/customizable_space_bar.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
 
 import '../../../global_widget/app_bar_widgets/app_back_button.dart';
 import '../../../global_widget/my_card_design.dart';

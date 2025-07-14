@@ -1,6 +1,6 @@
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/models/product_summary.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/models/product_summary.dart';
 
 import 'repository/new_product_repository.dart';
 

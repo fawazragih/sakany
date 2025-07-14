@@ -8,7 +8,7 @@ class AppImages {
   static const _appLogos = "assets/images/app_logos/";
 
   // static const String logoPng = '${tempPlaceholder}all_logo.png';
-  static const String logoPng = '${_appLogos}sakani_mobile_app.png';
+  static const String logoPng = '${_appLogos}sakani.png';
   static const String logoSvg = '${_appLogos}all_logo.svg';
   static const String iconLogoSvg = '${_appLogos}icon_logo.svg';
   static const String mask = '${_decoration}image_mask.png';

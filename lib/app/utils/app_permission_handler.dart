@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/app_fancy_dialog.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/app_fancy_dialog.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 import 'package:permission_handler/permission_handler.dart';
 import '../core/language_and_localization/app_strings.dart';
 

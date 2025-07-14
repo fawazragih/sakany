@@ -1,12 +1,12 @@
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/modules/product_list_page/argument/product_list_argument.dart';
-import 'package:sakani_mobile_app/app/modules/product_list_page/product_list_view.dart';
-import 'package:sakani_mobile_app/app/modules/products_details_screen/arguments/product_details_screen_arguments.dart';
-import 'package:sakani_mobile_app/app/modules/products_details_screen/products_details_view.dart';
-import 'package:sakani_mobile_app/app/modules/topic_page/arguments/topic_page_arguments.dart';
-import 'package:sakani_mobile_app/app/modules/topic_page/topic_view.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/modules/product_list_page/argument/product_list_argument.dart';
+import 'package:sakani/app/modules/product_list_page/product_list_view.dart';
+import 'package:sakani/app/modules/products_details_screen/arguments/product_details_screen_arguments.dart';
+import 'package:sakani/app/modules/products_details_screen/products_details_view.dart';
+import 'package:sakani/app/modules/topic_page/arguments/topic_page_arguments.dart';
+import 'package:sakani/app/modules/topic_page/topic_view.dart';
 import '../../../../data/models/home_slider_response.dart';
 import '../../repository/home_repository.dart';
 

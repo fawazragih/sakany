@@ -2,8 +2,8 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani_mobile_app/app/modules/product_review_page/product_review_screen.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:sakani/app/modules/product_review_page/product_review_screen.dart';
 import '../../../data/models/product_details_response.dart';
 import '../../../global_widget/rating_widget.dart';
 

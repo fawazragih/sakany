@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani_mobile_app/app/data/models/filter_model.dart';
-import 'package:sakani_mobile_app/app/global_widget/action_buttons/action_button.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani_mobile_app/app/global_widget/bottome_sheet_widgets/bottom_sheet_top_container.dart';
+import 'package:sakani/app/core/language_and_localization/app_strings.dart';
+import 'package:sakani/app/data/models/filter_model.dart';
+import 'package:sakani/app/global_widget/action_buttons/action_button.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:sakani/app/global_widget/bottome_sheet_widgets/bottom_sheet_top_container.dart';
 import '../../../../data/models/catalog_products_model.dart';
 import 'manufacturer_filter.dart';
 import 'price_range_filter_widget.dart';

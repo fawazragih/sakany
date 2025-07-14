@@ -1,10 +1,10 @@
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/api_paths.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/app_dio_interceptor.dart';
-import 'package:sakani_mobile_app/app/modules/checkout_page/checkout_shared_mixin.dart';
-import 'package:sakani_mobile_app/app/modules/checkout_page/widgets/checkout_web_view/arguments/checkout_web_view_argument.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/data/api_providers/base_configs/api_paths.dart';
+import 'package:sakani/app/data/api_providers/base_configs/app_dio_interceptor.dart';
+import 'package:sakani/app/modules/checkout_page/checkout_shared_mixin.dart';
+import 'package:sakani/app/modules/checkout_page/widgets/checkout_web_view/arguments/checkout_web_view_argument.dart';
 import '../../../../utils/api_env_config/app_logger_config.dart';
 import '../../../../utils/constants/const_strings.dart';
 

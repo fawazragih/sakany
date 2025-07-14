@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/models/app_landing_response.dart';
-import 'package:sakani_mobile_app/app/data/repositories/settings_repository.dart';
-import 'package:sakani_mobile_app/app/modules/splash_screen/splash_screen.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/models/app_landing_response.dart';
+import 'package:sakani/app/data/repositories/settings_repository.dart';
+import 'package:sakani/app/modules/splash_screen/splash_screen.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 
 class ChangeDefaultCurrencyController extends BaseController {
   final SettingsRepository _repository = SettingsRepository.instance;

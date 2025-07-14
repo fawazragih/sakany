@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/models/available_option.dart';
-import 'package:sakani_mobile_app/app/data/models/estimate_shipping.dart';
-import 'package:sakani_mobile_app/app/data/models/estimate_shipping_response.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/estimate_shipping_req_body.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/form_value.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/different_dialogs.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/core/language_and_localization/app_strings.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/models/available_option.dart';
+import 'package:sakani/app/data/models/estimate_shipping.dart';
+import 'package:sakani/app/data/models/estimate_shipping_response.dart';
+import 'package:sakani/app/data/models/requestbody/estimate_shipping_req_body.dart';
+import 'package:sakani/app/data/models/requestbody/form_value.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/different_dialogs.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 
 import 'repository/estimate_shipping_repository.dart';
 

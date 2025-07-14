@@ -1,10 +1,10 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart' as getx;
-import 'package:sakani_mobile_app/app/core/language_and_localization/app_language_controller.dart';
+import 'package:sakani/app/core/language_and_localization/app_language_controller.dart';
 
 // import 'package:jaguar_jwt/jaguar_jwt.dart' as jwt;
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 import '../../../base_controllers_and_listeners/user_auth_controller.dart';
 
 class AppAuthInterceptor extends QueuedInterceptor {

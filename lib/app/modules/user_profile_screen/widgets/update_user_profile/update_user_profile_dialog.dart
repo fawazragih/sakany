@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/user_login_response.dart';
+import 'package:sakani/app/data/models/user_login_response.dart';
 
 import '../../../../core/language_and_localization/app_strings.dart';
 import '../../../../global_widget/app_ui_helper/shared_style.dart';

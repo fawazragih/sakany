@@ -1,7 +1,7 @@
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/share_api.dart';
-import 'package:sakani_mobile_app/app/data/models/downloadable_product_response.dart';
-import 'package:sakani_mobile_app/app/data/models/user_agreement_response.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/api_providers/share_api.dart';
+import 'package:sakani/app/data/models/downloadable_product_response.dart';
+import 'package:sakani/app/data/models/user_agreement_response.dart';
 
 import 'api_response_models/general_response_model.dart';
 import 'base_configs/api_paths.dart';

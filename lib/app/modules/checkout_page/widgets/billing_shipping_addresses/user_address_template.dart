@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/get_billing_address_response.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani_mobile_app/app/global_widget/my_card_design.dart';
+import 'package:sakani/app/data/models/get_billing_address_response.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:sakani/app/global_widget/my_card_design.dart';
 
 class UserAddressTemplate extends StatelessWidget {
   final Address address;

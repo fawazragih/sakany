@@ -1,6 +1,6 @@
 import 'package:http_parser/http_parser.dart';
-import 'package:sakani_mobile_app/app/utils/type_conversion.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/utils/type_conversion.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 
 typedef OnInsideDataSerialize<T> = T Function(Map<String, dynamic>);
 

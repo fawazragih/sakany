@@ -2,12 +2,12 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/product_summary.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani_mobile_app/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
-import 'package:sakani_mobile_app/app/global_widget/screen_status_widgets.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/data/models/product_summary.dart';
+import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:sakani/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
+import 'package:sakani/app/global_widget/screen_status_widgets.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 
 import '../home_page/widgets/product_box/horizontal_product_template.dart';
 import 'new_products_controller.dart';

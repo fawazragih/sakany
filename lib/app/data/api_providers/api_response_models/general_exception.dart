@@ -1,7 +1,7 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/core/language_and_localization/api_errors_strings.dart';
+import 'package:sakani/app/core/language_and_localization/api_errors_strings.dart';
 
 class GeneralException implements Exception {
   final String? message;

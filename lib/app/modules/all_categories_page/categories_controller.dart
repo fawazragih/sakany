@@ -1,10 +1,10 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/modules/home_page/repository/home_repository.dart';
-import 'package:sakani_mobile_app/app/modules/product_list_page/argument/product_list_argument.dart';
-import 'package:sakani_mobile_app/app/modules/product_list_page/product_list_view.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/modules/home_page/repository/home_repository.dart';
+import 'package:sakani/app/modules/product_list_page/argument/product_list_argument.dart';
+import 'package:sakani/app/modules/product_list_page/product_list_view.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 
 import '../../data/api_providers/base_configs/handling_dio_response.dart';
 import '../../data/models/category_tree/category_tree_response.dart';

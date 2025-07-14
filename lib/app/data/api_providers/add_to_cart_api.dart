@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/base_api.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/models/file_upload_response.dart';
-import 'package:sakani_mobile_app/app/data/models/post_checkout_attr_response.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/form_values_request_body.dart';
-import 'package:sakani_mobile_app/app/data/models/shopping_cart_response.dart';
+import 'package:sakani/app/data/api_providers/base_configs/base_api.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/models/file_upload_response.dart';
+import 'package:sakani/app/data/models/post_checkout_attr_response.dart';
+import 'package:sakani/app/data/models/requestbody/form_values_request_body.dart';
+import 'package:sakani/app/data/models/shopping_cart_response.dart';
 
 import '../models/add_to_cart_response.dart';
 import 'api_response_models/general_response_model.dart';

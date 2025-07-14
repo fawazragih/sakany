@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart' as intl;
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/user_auth_controller.dart';
-import 'package:sakani_mobile_app/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/different_dialogs.dart';
-import 'package:sakani_mobile_app/app/modules/auth_module/login_screen/login_view.dart';
-import 'package:sakani_mobile_app/app/services/connectivity_service/connectivity_controller.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/base_controllers_and_listeners/user_auth_controller.dart';
+import 'package:sakani/app/core/language_and_localization/app_strings.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/different_dialogs.dart';
+import 'package:sakani/app/modules/auth_module/login_screen/login_view.dart';
+import 'package:sakani/app/services/connectivity_service/connectivity_controller.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 
 import '../services/connectivity_service/no_connection_snack_bar.dart';
 

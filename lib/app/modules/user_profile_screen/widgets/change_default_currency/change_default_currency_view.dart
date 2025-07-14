@@ -3,11 +3,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/app_landing_response.dart';
-import 'package:sakani_mobile_app/app/global_widget/action_buttons/action_button.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_bar_widgets/app_back_button.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/data/models/app_landing_response.dart';
+import 'package:sakani/app/global_widget/action_buttons/action_button.dart';
+import 'package:sakani/app/global_widget/app_bar_widgets/app_back_button.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 
 import 'change_default_currency_controller.dart';
 

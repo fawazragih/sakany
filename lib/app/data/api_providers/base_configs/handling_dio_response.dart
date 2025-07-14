@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:app_extensions/app_extensions.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 
 import '../api_response_models/general_exception.dart';
 import '../api_response_models/general_response_model.dart';

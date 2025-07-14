@@ -1,5 +1,5 @@
 import 'package:app_extensions/app_extensions.dart';
-import 'package:sakani_mobile_app/app/data/models/picture_model.dart';
+import 'package:sakani/app/data/models/picture_model.dart';
 
 import 'available_option.dart';
 import 'custom_attribute.dart';

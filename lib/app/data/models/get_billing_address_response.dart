@@ -1,5 +1,5 @@
-import 'package:sakani_mobile_app/app/global_widget/all_form_widgets/location_picker_from_widget/models/location_address_model.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/global_widget/all_form_widgets/location_picker_from_widget/models/location_address_model.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 
 import 'available_option.dart';
 import 'custom_attribute.dart';

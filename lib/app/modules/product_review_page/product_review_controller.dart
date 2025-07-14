@@ -1,15 +1,15 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/pagination_logic_controller.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/api_response_models/general_response_model.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/models/product_review_response.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/form_value.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/form_values_request_body.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/post_review_req_body.dart';
-import 'package:sakani_mobile_app/app/utils/constants/app_constants.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/base_controllers_and_listeners/pagination_logic_controller.dart';
+import 'package:sakani/app/data/api_providers/api_response_models/general_response_model.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/models/product_review_response.dart';
+import 'package:sakani/app/data/models/requestbody/form_value.dart';
+import 'package:sakani/app/data/models/requestbody/form_values_request_body.dart';
+import 'package:sakani/app/data/models/requestbody/post_review_req_body.dart';
+import 'package:sakani/app/utils/constants/app_constants.dart';
 import 'repository/product_review_repository.dart';
 
 class ProductReviewController extends BaseController

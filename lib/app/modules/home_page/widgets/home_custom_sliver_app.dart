@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_bar_widgets/customizable_space_bar.dart';
-import 'package:sakani_mobile_app/app/global_widget/my_card_design.dart';
-import 'package:sakani_mobile_app/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
-import 'package:sakani_mobile_app/app/modules/all_cart_modules/shopping_cart_page/shopping_cart_view.dart';
-import 'package:sakani_mobile_app/app/modules/all_cart_modules/widgets/cart_icon_button.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:sakani/app/global_widget/app_bar_widgets/customizable_space_bar.dart';
+import 'package:sakani/app/global_widget/my_card_design.dart';
+import 'package:sakani/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
+import 'package:sakani/app/modules/all_cart_modules/shopping_cart_page/shopping_cart_view.dart';
+import 'package:sakani/app/modules/all_cart_modules/widgets/cart_icon_button.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 import '../../wish_list_page/wish_list_view.dart' show WishListPage;
 import 'app_home_slider_widget/app_home_slider_view.dart';
 

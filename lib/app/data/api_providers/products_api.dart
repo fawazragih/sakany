@@ -1,9 +1,9 @@
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/base_api.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/models/product_attr_change_response.dart';
-import 'package:sakani_mobile_app/app/data/models/requestbody/form_values_request_body.dart';
-import 'package:sakani_mobile_app/app/modules/product_list_page/argument/product_list_argument.dart';
-import 'package:sakani_mobile_app/app/utils/constants/app_constants.dart';
+import 'package:sakani/app/data/api_providers/base_configs/base_api.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/models/product_attr_change_response.dart';
+import 'package:sakani/app/data/models/requestbody/form_values_request_body.dart';
+import 'package:sakani/app/modules/product_list_page/argument/product_list_argument.dart';
+import 'package:sakani/app/utils/constants/app_constants.dart';
 import '../models/BaseResponse.dart';
 import '../models/add_to_cart_response.dart';
 import '../models/product_details_response.dart';

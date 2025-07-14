@@ -1,4 +1,4 @@
-import 'package:sakani_mobile_app/app/utils/type_conversion.dart';
+import 'package:sakani/app/utils/type_conversion.dart';
 
 class AddOrEditAddressPageArgs {
   final bool? isEditMode;

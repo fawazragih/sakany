@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 import 'package:simple_connection_checker/simple_connection_checker.dart';
 import 'no_connection_snack_bar.dart';
 

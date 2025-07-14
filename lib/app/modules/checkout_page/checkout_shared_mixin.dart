@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/get_billing_address_response.dart';
-import 'package:sakani_mobile_app/app/data/models/save_billing_response.dart';
-import 'package:sakani_mobile_app/app/modules/checkout_page/checkout_controller.dart';
+import 'package:sakani/app/data/models/get_billing_address_response.dart';
+import 'package:sakani/app/data/models/save_billing_response.dart';
+import 'package:sakani/app/modules/checkout_page/checkout_controller.dart';
 
 
 enum CheckoutSteps {

@@ -2,7 +2,7 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/helpers_methods.dart';
+import 'package:sakani/app/base_controllers_and_listeners/helpers_methods.dart';
 
 import '../../core/theme/input_decoration_style.dart';
 

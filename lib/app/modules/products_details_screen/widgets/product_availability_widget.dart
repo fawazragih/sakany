@@ -2,10 +2,10 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/user_auth_controller.dart';
-import 'package:sakani_mobile_app/app/modules/products_details_screen/products_details_controller.dart';
-import 'package:sakani_mobile_app/app/modules/products_details_screen/products_details_view.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/base_controllers_and_listeners/user_auth_controller.dart';
+import 'package:sakani/app/modules/products_details_screen/products_details_controller.dart';
+import 'package:sakani/app/modules/products_details_screen/products_details_view.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 import '../../../global_widget/action_buttons/action_button.dart';
 
 class ProductAvailabilityWidget extends GetWidget<ProductsDetailsController> {

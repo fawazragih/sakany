@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/filter_model.dart';
+import 'package:sakani/app/data/models/filter_model.dart';
 
 import '../../base_controllers_and_listeners/base_controller.dart';
 import '../../data/models/category_tree/category_tree_response.dart';

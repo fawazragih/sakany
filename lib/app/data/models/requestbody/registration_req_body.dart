@@ -1,4 +1,4 @@
-import 'package:sakani_mobile_app/app/data/models/register_form_response.dart';
+import 'package:sakani/app/data/models/register_form_response.dart';
 import 'form_value.dart';
 
 class RegistrationReqBody {

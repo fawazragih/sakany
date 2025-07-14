@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani_mobile_app/app/global_widget/global_html_view_widget.dart';
-import 'package:sakani_mobile_app/app/global_widget/screen_status_widgets.dart';
+import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:sakani/app/global_widget/global_html_view_widget.dart';
+import 'package:sakani/app/global_widget/screen_status_widgets.dart';
 
 import 'topic_controller.dart';
 

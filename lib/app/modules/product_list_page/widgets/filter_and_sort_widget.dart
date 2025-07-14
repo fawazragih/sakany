@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani_mobile_app/app/global_widget/my_card_design.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:sakani/app/global_widget/my_card_design.dart';
 
 import '../../../utils/constants/const_strings.dart';
 

@@ -1,5 +1,5 @@
 
-import 'package:sakani_mobile_app/app/data/models/product_review_response.dart';
+import 'package:sakani/app/data/models/product_review_response.dart';
 
 class PostReviewReqBody {
   PostReviewReqBody({

@@ -2,10 +2,10 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/data/models/manufacturer_filter.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani_mobile_app/app/global_widget/bottome_sheet_widgets/bottom_sheet_top_container.dart';
-import 'package:sakani_mobile_app/app/global_widget/my_card_design.dart';
+import 'package:sakani/app/data/models/manufacturer_filter.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:sakani/app/global_widget/bottome_sheet_widgets/bottom_sheet_top_container.dart';
+import 'package:sakani/app/global_widget/my_card_design.dart';
 
 import '../../../utils/constants/const_strings.dart';
 

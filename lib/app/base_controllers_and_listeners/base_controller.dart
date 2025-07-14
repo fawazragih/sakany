@@ -4,7 +4,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:get/get.dart';
 import 'package:get/get_rx/src/rx_workers/utils/debouncer.dart';
 
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/shared_repository.dart';
+import 'package:sakani/app/base_controllers_and_listeners/shared_repository.dart';
 import 'package:rounded_loading_button/rounded_loading_button.dart';
 import '../core/language_and_localization/app_strings.dart';
 import '../data/api_providers/base_configs/handling_dio_response.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/loading_progress_bar.dart';
-import 'package:sakani_mobile_app/app/modules/checkout_page/widgets/checkout_web_view/checkout_web_view_controller.dart';
+import 'package:sakani/app/global_widget/loading_progress_bar.dart';
+import 'package:sakani/app/modules/checkout_page/widgets/checkout_web_view/checkout_web_view_controller.dart';
 
 class CheckoutWebViewStep extends StatelessWidget {
   static const routeName = '/app/checkoutWebView';

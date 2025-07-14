@@ -1,5 +1,5 @@
-import 'package:sakani_mobile_app/app/data/api_providers/products_api.dart';
-import 'package:sakani_mobile_app/app/modules/product_list_page/argument/product_list_argument.dart';
+import 'package:sakani/app/data/api_providers/products_api.dart';
+import 'package:sakani/app/modules/product_list_page/argument/product_list_argument.dart';
 
 import '../../../data/api_providers/base_configs/handling_dio_response.dart';
 import '../../../data/models/requestbody/form_values_request_body.dart';

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/action_buttons/action_button.dart';
-import 'package:sakani_mobile_app/app/modules/auth_module/login_screen/login_view.dart';
-import 'package:sakani_mobile_app/app/modules/auth_module/signup_screen/arguments/registration_screen_arguments.dart';
-import 'package:sakani_mobile_app/app/modules/auth_module/signup_screen/signup_screen.dart';
-import 'package:sakani_mobile_app/app/modules/checkout_page/checkout_view.dart';
-import 'package:sakani_mobile_app/app/services/bas_service_configs/bas_service.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/global_widget/action_buttons/action_button.dart';
+import 'package:sakani/app/modules/auth_module/login_screen/login_view.dart';
+import 'package:sakani/app/modules/auth_module/signup_screen/arguments/registration_screen_arguments.dart';
+import 'package:sakani/app/modules/auth_module/signup_screen/signup_screen.dart';
+import 'package:sakani/app/modules/checkout_page/checkout_view.dart';
+import 'package:sakani/app/services/bas_service_configs/bas_service.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 
 class CheckoutDialog extends StatelessWidget {
   const CheckoutDialog({super.key});

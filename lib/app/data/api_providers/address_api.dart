@@ -1,8 +1,8 @@
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/api_paths.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/base_api.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/share_api.dart';
-import 'package:sakani_mobile_app/app/data/models/address_form_response.dart';
+import 'package:sakani/app/data/api_providers/base_configs/api_paths.dart';
+import 'package:sakani/app/data/api_providers/base_configs/base_api.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/data/api_providers/share_api.dart';
+import 'package:sakani/app/data/models/address_form_response.dart';
 
 import '../models/BaseResponse.dart';
 import '../models/address_list_response.dart';

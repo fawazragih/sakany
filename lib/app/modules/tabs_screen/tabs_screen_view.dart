@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 import '../../core/language_and_localization/app_strings.dart';
 import 'tabs_screen_controller.dart';
 import 'taps_pages_and_bottom_nav_bar_icon_list.dart';

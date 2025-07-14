@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 import 'store_closed_controller.dart';
 
 class StoreClosedPage extends GetView<StoreClosedController> {

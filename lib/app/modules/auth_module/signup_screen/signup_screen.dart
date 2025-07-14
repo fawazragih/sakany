@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani_mobile_app/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani_mobile_app/app/global_widget/empty_data_widget.dart';
-import 'package:sakani_mobile_app/app/global_widget/loading_progress_bar.dart';
-import 'package:sakani_mobile_app/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
-import 'package:sakani_mobile_app/app/modules/auth_module/local_widget/logo_widget_in_auth_screens.dart';
-import 'package:sakani_mobile_app/app/modules/auth_module/signup_screen/signup_controller.dart';
-import 'package:sakani_mobile_app/app/modules/auth_module/signup_screen/widgets/register_form.dart';
-import 'package:sakani_mobile_app/app/utils/constants/const_strings.dart';
+import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:sakani/app/global_widget/empty_data_widget.dart';
+import 'package:sakani/app/global_widget/loading_progress_bar.dart';
+import 'package:sakani/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
+import 'package:sakani/app/modules/auth_module/local_widget/logo_widget_in_auth_screens.dart';
+import 'package:sakani/app/modules/auth_module/signup_screen/signup_controller.dart';
+import 'package:sakani/app/modules/auth_module/signup_screen/widgets/register_form.dart';
+import 'package:sakani/app/utils/constants/const_strings.dart';
 
 class SignupScreen extends GetView<SignupController> {
 

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:sakani_mobile_app/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 import '../data/api_providers/api_response_models/general_exception.dart';
 import '../data/api_providers/api_response_models/general_response_model.dart';
 

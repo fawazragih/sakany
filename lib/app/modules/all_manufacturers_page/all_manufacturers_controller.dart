@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:sakani_mobile_app/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
 
 import '../../data/api_providers/base_configs/handling_dio_response.dart';
 import '../../data/models/home/manufacturers_response.dart';

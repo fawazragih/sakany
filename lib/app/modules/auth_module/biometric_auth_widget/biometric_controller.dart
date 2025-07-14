@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:local_auth/local_auth.dart';
-import 'package:sakani_mobile_app/app/utils/api_env_config/app_logger_config.dart';
+import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
 
 import '../../../base_controllers_and_listeners/base_controller.dart';
 import '../../../core/language_and_localization/app_strings.dart';
