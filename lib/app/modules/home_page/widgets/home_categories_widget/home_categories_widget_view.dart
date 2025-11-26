@@ -2,11 +2,11 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani/app/data/models/category_tree/category_tree_response.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/global_widget/generic_image_and_name_template.dart';
-import 'package:sakani/app/global_widget/shimmer_list.dart';
+import 'package:tamoily/app/core/language_and_localization/app_strings.dart';
+import 'package:tamoily/app/data/models/category_tree/category_tree_response.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/global_widget/generic_image_and_name_template.dart';
+import 'package:tamoily/app/global_widget/shimmer_list.dart';
 
 import '../../../../global_widget/retry_and_errors_widgets/retry_widget.dart';
 import 'home_categories_controller.dart';
@@ -20,8 +20,8 @@ class HomeCategoriesWidget extends StatelessWidget {
       SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: showOne ? 1 : 2,
         childAspectRatio: showOne ? 1.3 : 1.1,
-        crossAxisSpacing: 0,
-        mainAxisSpacing: 0,
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
       );
 
   @override
@@ -59,13 +59,13 @@ class HomeCategoriesWidget extends StatelessWidget {
                           ),
                           UiHelper.verticalSpaceSmallMedium,
                           SizedBox(
-                            height: 170.h,
+                            height:controller.categoriesTree!.length * 90.h,
                             child: GridView.builder(
                               primary: false,
                               padding: EdgeInsets.zero,
                               keyboardDismissBehavior:
                                   ScrollViewKeyboardDismissBehavior.onDrag,
-                              scrollDirection: Axis.horizontal,
+                              scrollDirection: Axis.vertical,
                               itemCount: controller.categoriesTree?.length,
                               gridDelegate: gridDelegate,
                               itemBuilder: (context, index) {
@@ -73,11 +73,13 @@ class HomeCategoriesWidget extends StatelessWidget {
                                 return GenericImageAndNameInColumnTemplate<
                                     CategoryTreeResponseData>(
                                   item: e,
-                                  imageShape: BoxShape.circle,
+                                  imageShape: BoxShape.rectangle,
                                   onTap: controller.onCatTap,
                                   imgBorderRadius: 8.0,
-                                  imgHeight: 55.h,
-                                  imgWidth: 55.h,
+                                  // imgHeight: 100.h,
+                                  imgWidth: double.infinity,
+                                  // imgHeight: 55.h,
+                                  // imgWidth: 55.h,
                                   imageFit: BoxFit.cover,
                                   bgColor:
                                       Theme.of(context).colorScheme.secondary,

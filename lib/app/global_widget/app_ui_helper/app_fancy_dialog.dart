@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/core/language_and_localization/app_strings.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
 
 class AppFancyDialog<T> extends StatelessWidget {
   final String? title;

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 import '../../core/language_and_localization/app_strings.dart';
 import 'tabs_screen_controller.dart';
 import 'taps_pages_and_bottom_nav_bar_icon_list.dart';
@@ -57,17 +57,17 @@ class TabsScreenView extends GetView<TabsScreenController> {
                 ),
                 label: AppStrings.home.tr.capitalizeFirst!,
               ),
-              CurvedNavigationBarItem(
-                child: Icon(
-                  CupertinoIcons.collections,
-                  color: context.theme.colorScheme.onPrimary,
-                ),
-                labelStyle: context.theme.textTheme.labelMedium?.copyWith(
-                  color: context.theme.colorScheme.onPrimary,
-                  fontSize: fontSize,
-                ),
-                label: AppStrings.categories.tr.capitalizeFirst!,
-              ),
+              // CurvedNavigationBarItem(
+              //   child: Icon(
+              //     CupertinoIcons.collections,
+              //     color: context.theme.colorScheme.onPrimary,
+              //   ),
+              //   labelStyle: context.theme.textTheme.labelMedium?.copyWith(
+              //     color: context.theme.colorScheme.onPrimary,
+              //     fontSize: fontSize,
+              //   ),
+              //   label: AppStrings.categories.tr.capitalizeFirst!,
+              // ),
               CurvedNavigationBarItem(
                 child: Icon(
                   CupertinoIcons.search,

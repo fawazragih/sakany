@@ -1,4 +1,4 @@
-import 'package:sakani/app/utils/api_env_config/api_env_setter.dart';
+import 'package:tamoily/app/utils/api_env_config/api_env_setter.dart';
 
 class ApiEndpoints {
   ApiEndpoints._();
@@ -10,6 +10,7 @@ class ApiEndpoints {
   static get siteUrl => BuildEnvironment.instance.baseUrl;
 
   static final String baseUrl = '$siteUrl/api/';
+  // static final String baseUrl = 'https://sakany-tst.yk-bank.com:9003/api/';
 
   static const appLandingSettings = 'home/applandingsetting';
   static const appStart = 'appstart';

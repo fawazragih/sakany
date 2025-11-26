@@ -105,35 +105,37 @@ class GenericImageAndNameInColumnTemplate<T> extends StatelessWidget {
     return InkWell(
       onTap: () => onTap?.call(item),
       borderRadius: BorderRadius.circular(12),
+      
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          AppImageLoader(
-            imageUrl: image.call(item) ?? '',
-            fit: BoxFit.contain,
-            shape: imageShape,
-            height: imgHeight,
-            width: imgWidth,
-            borderColor: Theme.of(context).dividerColor,
-            bgColor: bgColor,
-            borderRadius: imgBorderRadius == null
-                ? null
-                : BorderRadius.circular(imgBorderRadius!),
-            padding: EdgeInsets.zero,
-
-          ),
-          Flexible(
-            child: Text(
-              name.call(item) ?? '',
-              style: Theme.of(context)
-                  .textTheme
-                  .labelMedium
-                  ?.copyWith(height: 1.1),
-              maxLines: 2,
-              // softWrap: true,
-              // wrapWords: true,
-              textAlign: TextAlign.center,
+          // SizedBox(height: 20,),
+          Expanded(
+            child: AppImageLoader(
+              imageUrl: image.call(item) ?? '',
+              fit: BoxFit.cover,
+              shape: imageShape,
+              height: imgHeight,
+              width: imgWidth,
+              borderColor: Theme.of(context).dividerColor,
+              bgColor: bgColor,
+              borderRadius: imgBorderRadius == null
+                  ? null
+                  : BorderRadius.circular(imgBorderRadius!),
+              padding: EdgeInsets.zero,
+            
             ),
+          ),
+          Text(
+            name.call(item) ?? '',
+            style: Theme.of(context)
+                .textTheme
+                .labelMedium
+                ?.copyWith(height: 1.1),
+            maxLines: 2,
+            // softWrap: true,
+            // wrapWords: true,
+            textAlign: TextAlign.center,
           ),
         ].withSpaceBetween(
           height: 8.0,

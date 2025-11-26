@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter: Attach to Device",
+            "type": "dart",
+            "request": "attach"
+        },
+        {
+            "name": "tamoily_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "tamoily_app (Dart Web)",
+            "program": "web",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

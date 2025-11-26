@@ -5,7 +5,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_maps_place_picker_mb/google_maps_place_picker.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
 import '../../../../core/language_and_localization/app_strings.dart';
 import '../../../app_ui_helper/ui_helpers.dart';
 import '../constants/google_map_keys.dart';

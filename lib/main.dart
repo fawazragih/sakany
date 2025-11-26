@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/firebase_options.dart';
+import 'package:tamoily/firebase_options.dart';
 import 'app/base_controllers_and_listeners/user_auth_controller.dart';
 import 'app/core/language_and_localization/app_language_controller.dart';
 import 'app/core/theme/theme_controller.dart';
@@ -17,7 +17,7 @@ import 'app/data/local_data/setting_app_service.dart';
 import 'app/data/models/app_landing_response.dart';
 import 'app/services/connectivity_service/connectivity_controller.dart';
 import 'app/utils/api_env_config/api_env_setter.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
 import 'start_app.dart';
 import 'web_helpers/mobile_worker.dart'
 if (dart.library.html) 'web_helpers/web_worker.dart' as web_helpers;
@@ -74,7 +74,10 @@ initAppGetControllers() async {
 }
 
 initAppFirebase() async {
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  if (Firebase.apps.isEmpty) {
+    print("Firebase is not initialized");
+    await Firebase.initializeApp();
+  }  //await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   ///. Firebase Crashlytics
   //enable FirebaseCrashlytics only in releaseMode

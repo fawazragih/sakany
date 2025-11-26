@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sakani/main.dart';
+import 'package:tamoily/main.dart';
 
 class AppLanguage {
   //final String flag; //  emoji flag are string "🇺🇸" "🇸🇦"
@@ -16,8 +16,7 @@ class AppLanguage {
   //     AppLanguage(1, 'English', const Locale('en', 'US')),
   //   ];
   // }
-  static List<AppLanguage> get appLanguageList {
-    return appLanding?.languageNavSelector?.availableLanguages
+  static List<AppLanguage> get appLanguageList {return appLanding?.languageNavSelector?.availableLanguages
             ?.map((e) => e.toAppLanguage())
             .toList() ??
         <AppLanguage>[];

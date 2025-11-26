@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:app_extensions/app_extensions.dart';
-import 'package:sakani/app/utils/type_conversion.dart';
+import 'package:tamoily/app/utils/type_conversion.dart';
 
 import '../../../data/models/product_details_response.dart';
 

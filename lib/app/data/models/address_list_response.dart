@@ -1,5 +1,5 @@
 
-import 'package:sakani/app/data/models/custom_properties.dart';
+import 'package:tamoily/app/data/models/custom_properties.dart';
 
 import 'get_billing_address_response.dart';
 

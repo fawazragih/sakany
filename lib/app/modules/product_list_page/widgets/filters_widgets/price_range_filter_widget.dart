@@ -1,7 +1,7 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
-import 'package:sakani/app/data/models/price_range_filter.dart';
-import 'package:sakani/app/global_widget/all_form_widgets/input_text_field_widget.dart';
+import 'package:tamoily/app/data/models/price_range_filter.dart';
+import 'package:tamoily/app/global_widget/all_form_widgets/input_text_field_widget.dart';
 
 import '../../../../global_widget/app_ui_helper/ui_helpers.dart';
 import '../../../../utils/constants/const_strings.dart';

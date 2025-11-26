@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/all_vendors_response.dart';
-import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani/app/global_widget/images_and_videos_widgets/app_image_loader.dart';
-import 'package:sakani/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
-import 'package:sakani/app/global_widget/screen_status_widgets.dart';
-import 'package:sakani/app/modules/product_list_page/argument/product_list_argument.dart';
-import 'package:sakani/app/modules/product_list_page/product_list_view.dart';
-import 'package:sakani/app/modules/products_details_screen/widgets/full_description_widget.dart';
-import 'package:sakani/app/modules/vendors_pages/contact_vendor_page/contact_vendor_view.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/data/models/all_vendors_response.dart';
+import 'package:tamoily/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:tamoily/app/global_widget/images_and_videos_widgets/app_image_loader.dart';
+import 'package:tamoily/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
+import 'package:tamoily/app/global_widget/screen_status_widgets.dart';
+import 'package:tamoily/app/modules/product_list_page/argument/product_list_argument.dart';
+import 'package:tamoily/app/modules/product_list_page/product_list_view.dart';
+import 'package:tamoily/app/modules/products_details_screen/widgets/full_description_widget.dart';
+import 'package:tamoily/app/modules/vendors_pages/contact_vendor_page/contact_vendor_view.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 
 import 'vendor_list_controller.dart';
 

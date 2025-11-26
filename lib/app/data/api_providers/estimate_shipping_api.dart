@@ -1,7 +1,7 @@
-import 'package:sakani/app/data/api_providers/base_configs/base_api.dart';
-import 'package:sakani/app/data/api_providers/share_api.dart';
-import 'package:sakani/app/data/models/estimate_shipping_response.dart';
-import 'package:sakani/app/data/models/requestbody/estimate_shipping_req_body.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/base_api.dart';
+import 'package:tamoily/app/data/api_providers/share_api.dart';
+import 'package:tamoily/app/data/models/estimate_shipping_response.dart';
+import 'package:tamoily/app/data/models/requestbody/estimate_shipping_req_body.dart';
 
 import 'api_response_models/general_response_model.dart';
 import 'base_configs/api_paths.dart';

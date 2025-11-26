@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
-import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani/app/base_controllers_and_listeners/pagination_logic_controller.dart';
-import 'package:sakani/app/data/api_providers/api_response_models/general_response_model.dart';
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani/app/data/models/reward_point_response.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/pagination_logic_controller.dart';
+import 'package:tamoily/app/data/api_providers/api_response_models/general_response_model.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/models/reward_point_response.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 
 import 'repository/reward_point_repository.dart';
 

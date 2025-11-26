@@ -66,7 +66,7 @@ class StartApp extends StatelessWidget {
           locale: Get.find<AppLanguageController>().appLocale.value,
           supportedLocales: const [
             Locale('en', 'US'),
-            Locale('ar', ''),
+            Locale('ar', 'YE'),
           ],
           localizationsDelegates: const [
             FormBuilderLocalizations.delegate,

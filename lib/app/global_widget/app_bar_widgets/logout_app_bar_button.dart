@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
-import 'package:sakani/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/global_widget/my_card_design.dart';
 import '../../modules/tabs_screen/tabs_screen_controller.dart';
 
 class LogoutAppBarButton extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:sakani/app/utils/file_utils/adutil_file.dart';
+import 'package:tamoily/app/utils/file_utils/adutil_file.dart';
 
 import 'sample_download_response.dart';
 

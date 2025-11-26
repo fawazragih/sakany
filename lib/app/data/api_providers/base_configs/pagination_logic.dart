@@ -1,7 +1,7 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:dio/dio.dart';
 import 'package:logger/logger.dart';
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
 import '../api_response_models/general_response_model.dart';
 
 class PaginationLogic {

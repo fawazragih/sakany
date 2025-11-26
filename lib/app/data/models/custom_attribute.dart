@@ -1,4 +1,4 @@
-import 'package:sakani/app/utils/nop_custom_attribute_manager/custom_attribute_manager.dart';
+import 'package:tamoily/app/utils/nop_custom_attribute_manager/custom_attribute_manager.dart';
 
 import 'picture_model.dart';
 import 'custom_properties.dart';

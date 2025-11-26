@@ -1,10 +1,10 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/global_widget/all_form_widgets/drop_down_menu_form_field_widget.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/global_widget/increment_and_decrement_buttons.dart';
-import 'package:sakani/app/modules/products_details_screen/products_details_controller.dart';
+import 'package:tamoily/app/global_widget/all_form_widgets/drop_down_menu_form_field_widget.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/global_widget/increment_and_decrement_buttons.dart';
+import 'package:tamoily/app/modules/products_details_screen/products_details_controller.dart';
 import '../../../data/models/available_option.dart';
 import '../../../utils/constants/const_strings.dart';
 

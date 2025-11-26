@@ -2,13 +2,13 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/downloadable_product_response.dart';
-import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani/app/global_widget/my_card_design.dart';
-import 'package:sakani/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
-import 'package:sakani/app/global_widget/screen_status_widgets.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/data/models/downloadable_product_response.dart';
+import 'package:tamoily/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:tamoily/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
+import 'package:tamoily/app/global_widget/screen_status_widgets.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 import 'downloadable_product_controller.dart';
 
 class DownloadableProductPage extends GetView<DownloadableProductController> {

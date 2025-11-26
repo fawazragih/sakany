@@ -1,6 +1,6 @@
-import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani/app/data/models/subscription_list_response.dart';
-import 'package:sakani/app/modules/subscription_page/repository/subscription_repository.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:tamoily/app/data/models/subscription_list_response.dart';
+import 'package:tamoily/app/modules/subscription_page/repository/subscription_repository.dart';
 
 import '../../base_controllers_and_listeners/pagination_logic_controller.dart';
 import '../../data/api_providers/api_response_models/general_response_model.dart';

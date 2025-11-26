@@ -2,11 +2,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/base_controllers_and_listeners/helpers_methods.dart';
-import 'package:sakani/app/data/models/user_login_response.dart';
-import 'package:sakani/app/modules/about_app_page/about_app_view.dart';
-import 'package:sakani/app/modules/all_cart_modules/shopping_cart_page/shopping_cart_view.dart';
-import 'package:sakani/app/modules/all_cart_modules/widgets/cart_icon_button.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/helpers_methods.dart';
+import 'package:tamoily/app/data/models/user_login_response.dart';
+import 'package:tamoily/app/modules/about_app_page/about_app_view.dart';
+import 'package:tamoily/app/modules/all_cart_modules/shopping_cart_page/shopping_cart_view.dart';
+import 'package:tamoily/app/modules/all_cart_modules/widgets/cart_icon_button.dart';
 import '../../base_controllers_and_listeners/user_auth_controller.dart';
 import '../../core/assets_helpers/app_images.dart';
 import '../app_ui_helper/shared_style.dart';
@@ -34,7 +34,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   //region show icons
   // final bool showNotificationIcon;
-  final bool showCartIcon;
+  final bool? showCartIcon;
 
   // final bool showUserIcon;
   // final bool showLogoutIcon;
@@ -64,7 +64,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
     //region show icons
     this.stopShowDefaultAction = false,
     // this.showNotificationIcon = false,
-    this.showCartIcon = true,
+    // this.showCartIcon = true,
+    this.showCartIcon,
     // this.showNotification = true,
     // this.showLogo = false,// this.showUser = true,
     // this.user,
@@ -87,7 +88,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       if (!stopShowDefaultAction) ...[
         ///.. logout IconButton
         // if (currentUser != null && showLogoutIcon) const LogoutAppBarButton(),
-        if (showCartIcon)
+        if (showCartIcon==true)
           CartIconButton(
             color: forgroundColor,
             onTap: () => Get.toNamed(ShoppingCartPage.routeName),

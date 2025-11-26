@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:app_extensions/app_extensions.dart';
-import 'package:sakani/app/data/models/user_login_response.dart';
-import 'package:sakani/app/utils/type_conversion.dart';
+import 'package:tamoily/app/data/models/user_login_response.dart';
+import 'package:tamoily/app/utils/type_conversion.dart';
 
 class RegistrationScreenArguments {
   bool? getCustomerInfo;

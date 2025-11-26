@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sakani/app/modules/all_categories_page/categories_view.dart';
-import 'package:sakani/app/modules/home_page/home_view.dart';
-import 'package:sakani/app/modules/search_page/search_view.dart';
-import 'package:sakani/app/modules/user_profile_screen/user_profile_screen.dart';
+import 'package:tamoily/app/modules/all_categories_page/categories_view.dart';
+import 'package:tamoily/app/modules/home_page/home_view.dart';
+import 'package:tamoily/app/modules/search_page/search_view.dart';
+import 'package:tamoily/app/modules/user_profile_screen/user_profile_screen.dart';
 import '../account_screen/account_view.dart';
 
 
@@ -23,14 +23,14 @@ class TapsPagesAndBottomNavBarIconList {
       switch (index) {
         case 0:
           return widgetList[index] = placeHolder(index);
+        // case 1:
+        //   return widgetList[index] = const AllCategoriesPage();
         case 1:
-          return widgetList[index] = const AllCategoriesPage();
-        case 2:
           return widgetList[index] = const SearchPage();
-        case 3:
+        case 2:
           return widgetList[index] = const AccountPage();
 
-        case 4:
+        case 3:
           return widgetList[index] = const UserProfilePage();
       }
     }

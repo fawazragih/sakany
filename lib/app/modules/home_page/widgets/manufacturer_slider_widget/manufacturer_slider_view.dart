@@ -2,9 +2,9 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/global_widget/shimmer_list.dart';
-import 'package:sakani/app/modules/product_list_page/product_list_view.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/global_widget/shimmer_list.dart';
+import 'package:tamoily/app/modules/product_list_page/product_list_view.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 import '../../../../data/models/home/manufacturers_response.dart';
 import '../../../../global_widget/empty_data_widget.dart';
 import '../../../../global_widget/images_and_videos_widgets/app_image_loader.dart';
@@ -28,6 +28,7 @@ class ManufacturerSliderWidget extends StatelessWidget {
                 imageHeight: 100,
                 containerWidth: 100,
                 itemCount: 10,
+                
               )
             : controller.showRetryButton
                 ? RetryWidget(

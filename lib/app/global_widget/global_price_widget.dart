@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sakani/app/data/models/product_summary.dart';
+import 'package:tamoily/app/data/models/product_summary.dart';
 
 class GlobalPriceWidget extends StatelessWidget {
   final String? title;

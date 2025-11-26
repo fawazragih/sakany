@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/core/language_and_localization/app_strings.dart';
+import 'package:tamoily/app/core/language_and_localization/app_strings.dart';
 
 import '../../../global_widget/app_ui_helper/ui_helpers.dart';
 

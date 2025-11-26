@@ -1,5 +1,5 @@
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani/app/data/api_providers/downloadable_prod_api.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/api_providers/downloadable_prod_api.dart';
 
 class DownloadableProdRepository {
   final DownloadableProdApi _api = DownloadableProdApi();

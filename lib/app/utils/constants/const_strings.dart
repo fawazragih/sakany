@@ -1,6 +1,6 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/local_data/setting_app_service.dart';
+import 'package:tamoily/app/data/local_data/setting_app_service.dart';
 
 class ConstStrings {
   static const TITLE_FORGOT_PASS = "account.passwordrecovery";

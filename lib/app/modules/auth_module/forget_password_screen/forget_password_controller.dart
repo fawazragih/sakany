@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
 
 import '../../../base_controllers_and_listeners/base_controller.dart';
 import '../../../core/language_and_localization/app_strings.dart';

@@ -3,8 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/base_controllers_and_listeners/user_auth_controller.dart';
-import 'package:sakani/app/modules/error_screen/error_screen_controller.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/user_auth_controller.dart';
+import 'package:tamoily/app/modules/error_screen/error_screen_controller.dart';
 
 import '../../utils/constants/app_constants.dart';
 

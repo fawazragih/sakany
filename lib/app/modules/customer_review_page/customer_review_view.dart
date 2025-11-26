@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/customer_review_response.dart';
-import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani/app/global_widget/pagination_list_builder.dart';
-import 'package:sakani/app/global_widget/screen_status_widgets.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/data/models/customer_review_response.dart';
+import 'package:tamoily/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:tamoily/app/global_widget/pagination_list_builder.dart';
+import 'package:tamoily/app/global_widget/screen_status_widgets.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 import 'customer_review_controller.dart';
 import 'widgets/product_review_template.dart';
 

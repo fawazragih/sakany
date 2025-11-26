@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import 'package:sakani/app/modules/tabs_screen/tabs_screen_view.dart';
+import 'package:tamoily/app/modules/tabs_screen/tabs_screen_view.dart';
 
 import '../../base_controllers_and_listeners/base_controller.dart';
 import '../../core/assets_helpers/app_images.dart';

@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
-import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani/app/data/models/address_form_response.dart';
-import 'package:sakani/app/data/models/requestbody/form_value.dart';
-import 'package:sakani/app/utils/constants/app_constants.dart';
-import 'package:sakani/app/utils/nop_custom_attribute_manager/custom_attribute_manager.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/models/address_form_response.dart';
+import 'package:tamoily/app/data/models/requestbody/form_value.dart';
+import 'package:tamoily/app/utils/constants/app_constants.dart';
+import 'package:tamoily/app/utils/nop_custom_attribute_manager/custom_attribute_manager.dart';
 
 import '../../../data/models/get_billing_address_response.dart';
 import '../repository/address_list_repository.dart';

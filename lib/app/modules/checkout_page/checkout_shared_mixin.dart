@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/get_billing_address_response.dart';
-import 'package:sakani/app/data/models/save_billing_response.dart';
-import 'package:sakani/app/modules/checkout_page/checkout_controller.dart';
+import 'package:tamoily/app/data/models/get_billing_address_response.dart';
+import 'package:tamoily/app/data/models/save_billing_response.dart';
+import 'package:tamoily/app/modules/checkout_page/checkout_controller.dart';
 
 
 enum CheckoutSteps {
@@ -14,18 +14,14 @@ enum CheckoutSteps {
   confirmOrder(6,5),
   redirectToGateway(7,6),
   completed(8,7),
-
-// Used from order details screen
   retryPayment(123,-1);
-
   final int serverValue;
   final int uiIndex;
 
   const CheckoutSteps(this.serverValue,this.uiIndex);
 
   static CheckoutSteps getStep(int index) {
-    return CheckoutSteps.values.firstWhereOrNull((e) => e.serverValue == index) ??
-        CheckoutSteps.retryPayment;
+    return CheckoutSteps.values.firstWhereOrNull((e) => e.serverValue == index) ?? CheckoutSteps.retryPayment;
   }
 }
 

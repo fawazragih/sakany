@@ -1,8 +1,8 @@
 // import 'package:flutter/material.dart';
 // import 'package:flutter_screenutil/flutter_screenutil.dart';
 // import 'package:get/get.dart';
-// import 'package:sakani/app/global_widget/empty_data_widget.dart';
-// import 'package:sakani/app/modules/all_cart_modules/add_to_cart_bottome_sheet/bottom_sheet_add_to_cart.dart';
+// import 'package:tamoily/app/global_widget/empty_data_widget.dart';
+// import 'package:tamoily/app/modules/all_cart_modules/add_to_cart_bottome_sheet/bottom_sheet_add_to_cart.dart';
 // import '../../../data/models/product_model.dart';
 // import '../../../global_widget/pagination_list_builder.dart';
 // import '../../../utils/refresh_data_listener.dart';

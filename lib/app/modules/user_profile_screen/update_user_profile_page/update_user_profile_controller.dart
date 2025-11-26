@@ -1,14 +1,14 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani/app/data/api_providers/auth_api.dart';
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani/app/data/models/get_avatar_response.dart';
-import 'package:sakani/app/data/models/register_form_response.dart';
-import 'package:sakani/app/data/models/requestbody/form_value.dart';
-import 'package:sakani/app/data/models/user_login_response.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
-import 'package:sakani/app/utils/nop_custom_attribute_manager/custom_attribute_manager.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:tamoily/app/data/api_providers/auth_api.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/models/get_avatar_response.dart';
+import 'package:tamoily/app/data/models/register_form_response.dart';
+import 'package:tamoily/app/data/models/requestbody/form_value.dart';
+import 'package:tamoily/app/data/models/user_login_response.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/utils/nop_custom_attribute_manager/custom_attribute_manager.dart';
 
 import '../../../data/models/requestbody/registration_req_body.dart';
 import '../../../utils/api_env_config/app_logger_config.dart';

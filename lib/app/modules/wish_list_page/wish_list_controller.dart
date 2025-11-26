@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
-import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani/app/data/models/requestbody/form_value.dart';
-import 'package:sakani/app/data/models/wish_list_response.dart';
-import 'package:sakani/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
-import 'package:sakani/app/modules/all_cart_modules/shopping_cart_page/shopping_cart_view.dart';
-import 'package:sakani/app/modules/wish_list_page/repository/wish_list_repository.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:tamoily/app/data/models/requestbody/form_value.dart';
+import 'package:tamoily/app/data/models/wish_list_response.dart';
+import 'package:tamoily/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
+import 'package:tamoily/app/modules/all_cart_modules/shopping_cart_page/shopping_cart_view.dart';
+import 'package:tamoily/app/modules/wish_list_page/repository/wish_list_repository.dart';
 
 import '../../data/api_providers/base_configs/handling_dio_response.dart';
 import '../../data/models/requestbody/form_values_request_body.dart';

@@ -4,7 +4,7 @@ import 'package:flutter_html/flutter_html.dart';
 import 'package:get/get.dart';
 import 'package:html/dom.dart' as dom;
 import 'package:html/parser.dart';
-import 'package:sakani/app/utils/url_launcher_manager.dart';
+import 'package:tamoily/app/utils/url_launcher_manager.dart';
 
 class GlobalHtmlViewWidget extends StatelessWidget {
   final String data;

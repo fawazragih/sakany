@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/app_landing_response.dart';
+import 'package:tamoily/app/data/models/app_landing_response.dart';
 import '../../base_controllers_and_listeners/base_controller.dart';
 import '../../services/bas_service_configs/bas_service.dart';
 import '../../utils/api_env_config/app_logger_config.dart';

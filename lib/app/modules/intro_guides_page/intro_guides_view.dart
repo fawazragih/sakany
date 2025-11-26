@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import 'package:sakani/app/global_widget/images_and_videos_widgets/app_image_loader.dart' show AppImageLoader;
+import 'package:tamoily/app/global_widget/images_and_videos_widgets/app_image_loader.dart' show AppImageLoader;
 import '../../core/language_and_localization/app_strings.dart';
 import '../../global_widget/action_buttons/action_button.dart';
 import 'intro_guides_controller.dart';

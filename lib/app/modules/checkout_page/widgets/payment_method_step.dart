@@ -3,17 +3,19 @@ import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/global_widget/action_buttons/action_button.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/global_widget/images_and_videos_widgets/app_image_loader.dart' show AppImageLoader;
-import 'package:sakani/app/global_widget/my_card_design.dart';
-import 'package:sakani/app/modules/checkout_page/checkout_shared_mixin.dart';
-import 'package:sakani/app/services/bas_service_configs/bas_service.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/global_widget/action_buttons/action_button.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/global_widget/images_and_videos_widgets/app_image_loader.dart'
+    show AppImageLoader;
+import 'package:tamoily/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/modules/checkout_page/checkout_shared_mixin.dart';
+import 'package:tamoily/app/services/bas_service_configs/bas_service.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 
 import '../../../core/language_and_localization/app_strings.dart';
+import 'checkout_web_view/check_payment_method.dart';
 
 class PaymentMethodStep extends StatefulWidget {
   const PaymentMethodStep({super.key});
@@ -55,7 +57,8 @@ class _PaymentMethodStepState extends State<PaymentMethodStep>
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    AppStrings.pleaseSelectYourPreferredPaymentMethod.translate.capitalizeFirst!,
+                    AppStrings.pleaseSelectYourPreferredPaymentMethod.translate
+                        .capitalizeFirst!,
                     style: Theme.of(context).textTheme.labelMedium.withBoldFont,
                   ).marginSymmetric(
                     vertical: 16.0.h,
@@ -114,7 +117,7 @@ class _PaymentMethodStepState extends State<PaymentMethodStep>
                         child: Row(
                           children: [
                             AppImageLoader(
-                              imageUrl:method?.logoUrl ?? 'http://',
+                              imageUrl: method?.logoUrl ?? 'http://',
                               width: 60,
                               height: 60,
                               shape: BoxShape.circle,
@@ -165,8 +168,22 @@ class _PaymentMethodStepState extends State<PaymentMethodStep>
       ),
       bottomNavigationBar: ActionButton(
         text: ConstStrings.CONTINUE.translate.toUpperCase(),
-        onPressed: () {
-          if (checkoutController.selectedPaymentMethod?.paymentMethodSystemName == 'Payments.KitsysBAS') {
+         onPressed: () async {
+        //   if (checkoutController.selectedPaymentMethod?.name == "TamwelyPay") {
+        //     print('Please select payment method');
+        //     final result = await showAccountBottomSheet(context);
+        //
+        //     if (result == false) {
+        //       print("اختار: لا");
+        //     } else if (result is Map) {
+        //       print("تم: ${result['accountNumber']} - ${result['value1']} - ${result['value2']} - ${result['value3']}");
+        //     }
+        //
+        //   }
+        //   return;
+          if (checkoutController
+                  .selectedPaymentMethod?.paymentMethodSystemName ==
+              'Payments.KitsysBAS') {
             checkoutController.basPaymentInfo(previousData).then((value) {
               // DialogBuilder(context).hideLoader();
               printBasResult('value is bool && value=>$value');

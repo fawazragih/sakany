@@ -3,12 +3,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/global_widget/images_and_videos_widgets/app_image_loader.dart' show AppImageLoader;
-import 'package:sakani/app/global_widget/my_card_design.dart';
-import 'package:sakani/app/modules/products_details_screen/arguments/product_details_screen_arguments.dart';
-import 'package:sakani/app/modules/products_details_screen/products_details_view.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/global_widget/images_and_videos_widgets/app_image_loader.dart' show AppImageLoader;
+import 'package:tamoily/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/modules/products_details_screen/arguments/product_details_screen_arguments.dart';
+import 'package:tamoily/app/modules/products_details_screen/products_details_view.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 import '../../../data/models/wish_list_response.dart';
 
 class WishListItemTemplate extends StatelessWidget {

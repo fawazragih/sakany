@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/global_widget/loading_progress_bar.dart';
+import 'package:tamoily/app/global_widget/loading_progress_bar.dart';
 import '../../global_widget/app_ui_helper/shared_style.dart';
 import '../../global_widget/app_ui_helper/ui_helpers.dart';
 import 'home_controller.dart';
@@ -66,14 +66,14 @@ class HomePage extends GetView<HomeController> {
                       //region Featured products
                       if (controller.appLandingData?.showFeaturedProducts ==
                           true)
-                        SliverPadding(
-                          padding: SharedStyle
-                              .singleChildScrollViewHorizontalPadding,
-                          sliver:
-                              SliverToBoxAdapter(child: FeaturedProductsWidget()
-                                  // .marginOnly(bottom: 16.0),
-                                  ),
-                        ),
+                        // SliverPadding(
+                        //   padding: SharedStyle
+                        //       .singleChildScrollViewHorizontalPadding,
+                        //   sliver:
+                        //       SliverToBoxAdapter(child: FeaturedProductsWidget()
+                        //           // .marginOnly(bottom: 16.0),
+                        //           ),
+                        // ),
                       //endregion
 
                       //region CategoriesWithProducts

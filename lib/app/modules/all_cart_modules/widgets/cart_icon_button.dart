@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
-import 'package:sakani/app/global_widget/my_card_design.dart';
-import 'package:sakani/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
+import 'package:tamoily/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
 
 class CartIconButton extends StatelessWidget {
   final double? topMargin;
@@ -50,9 +50,10 @@ class CartIconButton extends StatelessWidget {
           onTap: onTap,
           padding: EdgeInsets.all(12.0.w),
           child: Icon(
+
             IconsaxPlusLinear.bag_2,
             color: iconColor ?? Theme.of(context).colorScheme.onPrimary,
-            size: 24.r,
+            size: 26.r,
           ),
         ),
       );

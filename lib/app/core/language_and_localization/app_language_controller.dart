@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:sakani/app/base_controllers_and_listeners/helpers_methods.dart';
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani/app/data/repositories/settings_repository.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/helpers_methods.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/repositories/settings_repository.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
 import '../../modules/splash_screen/splash_screen.dart';
 
 class AppLanguageController extends GetxService with HelpersMethods {

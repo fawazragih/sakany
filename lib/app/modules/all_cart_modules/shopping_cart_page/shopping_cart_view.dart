@@ -1,10 +1,10 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani/app/global_widget/screen_status_widgets.dart';
-import 'package:sakani/app/modules/all_cart_modules/shopping_cart_page/widgets/shopping_cart_bottom_widget.dart';
+import 'package:tamoily/app/core/language_and_localization/app_strings.dart';
+import 'package:tamoily/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:tamoily/app/global_widget/screen_status_widgets.dart';
+import 'package:tamoily/app/modules/all_cart_modules/shopping_cart_page/widgets/shopping_cart_bottom_widget.dart';
 
 import 'shopping_cart_controller.dart';
 import 'widgets/shopping_cart_data_widget.dart';

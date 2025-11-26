@@ -2,18 +2,18 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/product_list/product_list_response.dart';
-import 'package:sakani/app/data/models/product_summary.dart';
-import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/global_widget/horizontal_list_builder.dart';
-import 'package:sakani/app/global_widget/images_and_videos_widgets/app_image_loader.dart';
-import 'package:sakani/app/global_widget/my_card_design.dart';
-import 'package:sakani/app/global_widget/pagination_list_builder.dart';
-import 'package:sakani/app/global_widget/shimmer_list.dart';
-import 'package:sakani/app/modules/home_page/widgets/product_box/horizontal_product_template.dart';
-import 'package:sakani/app/routes/app_routs_and_pages.dart';
+import 'package:tamoily/app/data/models/product_list/product_list_response.dart';
+import 'package:tamoily/app/data/models/product_summary.dart';
+import 'package:tamoily/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/global_widget/horizontal_list_builder.dart';
+import 'package:tamoily/app/global_widget/images_and_videos_widgets/app_image_loader.dart';
+import 'package:tamoily/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/global_widget/pagination_list_builder.dart';
+import 'package:tamoily/app/global_widget/shimmer_list.dart';
+import 'package:tamoily/app/modules/home_page/widgets/product_box/horizontal_product_template.dart';
+import 'package:tamoily/app/routes/app_routs_and_pages.dart';
 import '../../global_widget/screen_status_widgets.dart';
 import 'product_list_controller.dart';
 import 'widgets/filter_and_sort_widget.dart';
@@ -32,7 +32,7 @@ class ProductListPage extends StatelessWidget {
       init: ProductListController(),
       builder: (controller) {
         return Scaffold(
-          appBar: CustomAppBar(title: controller.arguments?.name),
+          appBar: CustomAppBar(title: controller.arguments?.name,showCartIcon:controller.arguments?.name=='عقارات'||controller.arguments?.name=='أراضي'?false:true ,),
           body: ScreenStatusWidgets(
             controller: controller,
             isEmpty: false,
@@ -80,6 +80,7 @@ class ProductListPage extends StatelessWidget {
                                   .productListData?.subCategories?.length,
                               items: controller.productListData?.subCategories,
                               widget: (item) => AppCard(
+                           
                                 onTap: () => controller.onSubProductTap(item),
                                 margin: EdgeInsetsDirectional.symmetric(
                                     horizontal: 4.0),

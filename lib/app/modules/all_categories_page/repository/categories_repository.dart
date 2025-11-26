@@ -1,6 +1,6 @@
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani/app/data/api_providers/categories_api.dart';
-import 'package:sakani/app/data/models/filter_model.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/api_providers/categories_api.dart';
+import 'package:tamoily/app/data/models/filter_model.dart';
 
 class CategoriesAndChannelRepository {
   final CategoriesAndChannelApi _api = CategoriesAndChannelApi();

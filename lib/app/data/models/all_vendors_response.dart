@@ -1,4 +1,4 @@
-import 'package:sakani/app/data/models/picture_model.dart';
+import 'package:tamoily/app/data/models/picture_model.dart';
 
 import 'catalog_products_model.dart';
 import 'custom_properties.dart';

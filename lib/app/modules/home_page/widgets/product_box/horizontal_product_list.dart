@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sakani/app/data/models/home/categories_with_products_response.dart';
+import 'package:tamoily/app/data/models/home/categories_with_products_response.dart';
 import '../../../../data/models/product_summary.dart';
 import '../product_box/product_box_header.dart';
 import 'horizontal_product_template.dart';

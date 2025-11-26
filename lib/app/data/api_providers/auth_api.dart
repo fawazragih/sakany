@@ -1,9 +1,9 @@
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani/app/data/api_providers/share_api.dart';
-import 'package:sakani/app/data/models/bas_settings_response.dart';
-import 'package:sakani/app/data/models/get_avatar_response.dart';
-import 'package:sakani/app/data/models/register_form_response.dart';
-import 'package:sakani/app/data/models/requestbody/registration_req_body.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/api_providers/share_api.dart';
+import 'package:tamoily/app/data/models/bas_settings_response.dart';
+import 'package:tamoily/app/data/models/get_avatar_response.dart';
+import 'package:tamoily/app/data/models/register_form_response.dart';
+import 'package:tamoily/app/data/models/requestbody/registration_req_body.dart';
 
 import '../models/login_form_response.dart';
 import '../models/requestbody/user_login_req_body.dart';

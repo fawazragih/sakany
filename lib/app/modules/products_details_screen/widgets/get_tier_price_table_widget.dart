@@ -2,9 +2,9 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/product_details_response.dart';
-import 'package:sakani/app/modules/products_details_screen/products_details_controller.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/data/models/product_details_response.dart';
+import 'package:tamoily/app/modules/products_details_screen/products_details_controller.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 
 class GetTierPriceTableWidget extends GetWidget<ProductsDetailsController> {
   const GetTierPriceTableWidget({super.key});

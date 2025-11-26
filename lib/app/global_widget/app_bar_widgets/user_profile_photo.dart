@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/global_widget/images_and_videos_widgets/app_image_loader.dart';
+import 'package:tamoily/app/global_widget/images_and_videos_widgets/app_image_loader.dart';
 class UserProfilePhoto extends StatelessWidget {
   const UserProfilePhoto({
     super.key,

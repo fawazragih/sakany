@@ -2,10 +2,10 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/core/language_and_localization/app_strings.dart';
+import 'package:tamoily/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
 import '../../global_widget/screen_status_widgets.dart';
 import 'categories_controller.dart';
 import 'widgets/side_cats_builder.dart';
@@ -43,13 +43,12 @@ class AllCategoriesPage extends GetView<AllCategoriesController> {
                         mainAxisSpacing: 0,
                       ),
                     )
-                  : Row(
+                  : Column(
                       mainAxisSize: MainAxisSize.min,
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Expanded(
-                          flex: 1,
                           child: SideCatsBuilder(
                             selectedSidCatId:
                                 controller.selectedSidCat.value?.categoryId,
@@ -58,22 +57,45 @@ class AllCategoriesPage extends GetView<AllCategoriesController> {
                                 controller.selectedSidCat.value = cat,
                           ),
                         ),
-                        UiHelper.horizontalSpaceMedium,
+                        // Divider(
+                        //     height: 1,
+                        //     thickness: 16,
+                        //     color: SharedStyle.shadowColor,
+                        //     indent: 1,
+                        //     endIndent: 1),
+                        UiHelper.horizontalSpaceSmall,
                         Expanded(
-                          flex: 2,
-                          child: SubSideCatsBuilder(
-                            onLeaveCatTap: controller.onCatTap,
-                            sideSubCatsList: controller
-                                    .selectedSidCat.value?.subCategories ??
-                                [],
-                            gridDelegate:
-                                const SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 3,
-                              mainAxisSpacing: 12,
-                              crossAxisSpacing: 16,
-                              childAspectRatio: 0.5,
+                          flex: 4,
+                          child: Container(
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                begin: Alignment.topCenter,
+                                end: Alignment.bottomCenter,
+                                colors: [
+
+                                  Colors.grey.shade200,
+                                  Colors.white,
+                                ],
+                              ),
+                              borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(16.0.r),
+                                topRight: Radius.circular(16.0.r),
+                              ),
                             ),
-                          ).marginOnly(top: 8.0.h),
+                            child: SubSideCatsBuilder(
+                              onLeaveCatTap: controller.onCatTap,
+                              sideSubCatsList: controller
+                                      .selectedSidCat.value?.subCategories ??
+                                  [],
+                              gridDelegate:
+                                  const SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisCount: 3,
+                                mainAxisSpacing: 12,
+                                crossAxisSpacing: 16,
+                                childAspectRatio: 0.5,
+                              ),
+                            ).marginOnly(top: 8.0.h),
+                          ),
                         ),
                       ],
                     );

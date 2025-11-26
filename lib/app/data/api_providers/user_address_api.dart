@@ -1,6 +1,6 @@
-// import 'package:sakani/app/data/api_providers/base_configs/base_api.dart';
-// import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-// import 'package:sakani/app/data/models/user_address.dart';
+// import 'package:tamoily/app/data/api_providers/base_configs/base_api.dart';
+// import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+// import 'package:tamoily/app/data/models/user_address.dart';
 //
 // import '../models/api_response_models/general_response_model.dart';
 // import 'base_configs/api_paths.dart';

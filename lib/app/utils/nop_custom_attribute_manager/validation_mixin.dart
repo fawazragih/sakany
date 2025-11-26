@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 
 mixin ValidationMixin {
   bool isValidEmailAddress(String email) {

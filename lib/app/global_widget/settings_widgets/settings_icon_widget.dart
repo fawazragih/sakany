@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 
 import '../my_card_design.dart';
 import 'settings_icon_container.dart';
@@ -37,7 +39,7 @@ class SettingsIconItem extends StatelessWidget {
     this.boldText = true,
     this.iconSize,
     this.iconBorderColor,
-    this.iconColor,
+    this.iconColor=const Color(0xFFD18546),
     this.titleStyle,
   });
 

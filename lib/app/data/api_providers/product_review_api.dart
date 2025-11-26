@@ -1,7 +1,7 @@
-import 'package:sakani/app/data/api_providers/base_configs/base_api.dart';
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani/app/data/models/requestbody/form_values_request_body.dart';
-import 'package:sakani/app/data/models/requestbody/post_review_req_body.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/base_api.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/models/requestbody/form_values_request_body.dart';
+import 'package:tamoily/app/data/models/requestbody/post_review_req_body.dart';
 
 import '../models/customer_review_response.dart';
 import '../models/product_review_response.dart';

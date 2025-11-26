@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/category_tree/category_tree_response.dart';
+import 'package:tamoily/app/data/models/category_tree/category_tree_response.dart';
 
 import '../../../global_widget/my_card_design.dart';
 
@@ -19,56 +19,32 @@ class SideCatsBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      shrinkWrap: true,
-      itemCount: sideCats.length,
-      itemBuilder: (BuildContext context, int index) {
-        var cat = sideCats[index];
+    return Wrap(
+      spacing: 9.4.w, // المسافة بين العناصر أفقياً
+      runSpacing: 8.0.h, // المسافة بين الصفوف عمودياً
+      children: sideCats.map((cat) {
         bool isSelected = selectedSidCatId == cat.categoryId;
-        return AppCard(
-          color: isSelected ? Theme.of(context).colorScheme.primary : null,
-          radius: 12.0,
-          borderRadius: SmoothBorderRadiusExt.directional(
-            context: context,
-            bottomEnd: 12.r,
-            topEnd: 12.r,
-          ),
-          margin: EdgeInsets.symmetric(
-            vertical: 6.0,
-          ),
-          hasBorder: false,
+        return GestureDetector(
           onTap: () => onSelectedSideCatChange.call(cat),
-          child: IntrinsicHeight(
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Container(
-                  width: 6,
-                  height: double.infinity,
-                  decoration: BoxDecoration(
-                      color: isSelected
-                          ? Theme.of(context).primaryColorDark
-                          : Theme.of(context).colorScheme.primary,
-                      borderRadius: BorderRadiusDirectional.horizontal(
-                          end: Radius.circular(4.0))),
+          child: Container(
+            width: 108.w,
+            padding:   EdgeInsets.symmetric(vertical: 10.h),
+            decoration: BoxDecoration(
+              color: isSelected ? Theme.of(context).colorScheme.primary : Colors.grey[300],
+              borderRadius: BorderRadius.circular(12.w),
+            ),
+            child: Center(
+              child: Text(
+                cat.name ?? cat.seName ?? 'no name',
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                  color: isSelected ? Theme.of(context).colorScheme.onPrimary : Colors.black,
                 ),
-                Expanded(
-                  child: Text(
-                    cat.name ?? cat.seName ?? 'no name',
-                    textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                          height: 1.3,
-                          color: !isSelected
-                              ? null
-                              : Theme.of(context).colorScheme.onPrimary,
-                        ),
-                  ).paddingSymmetric(vertical: 10.0),
-                ),
-              ],
+              ),
             ),
           ),
         );
-      },
+      }).toList(),
     );
   }
 }

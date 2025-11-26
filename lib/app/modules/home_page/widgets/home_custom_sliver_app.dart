@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani/app/global_widget/app_bar_widgets/customizable_space_bar.dart';
-import 'package:sakani/app/global_widget/my_card_design.dart';
-import 'package:sakani/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
-import 'package:sakani/app/modules/all_cart_modules/shopping_cart_page/shopping_cart_view.dart';
-import 'package:sakani/app/modules/all_cart_modules/widgets/cart_icon_button.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:tamoily/app/global_widget/app_bar_widgets/customizable_space_bar.dart';
+import 'package:tamoily/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
+import 'package:tamoily/app/modules/all_cart_modules/shopping_cart_page/shopping_cart_view.dart';
+import 'package:tamoily/app/modules/all_cart_modules/widgets/cart_icon_button.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
+import '../../../core/theme/app_colors.dart';
 import '../../wish_list_page/wish_list_view.dart' show WishListPage;
 import 'app_home_slider_widget/app_home_slider_view.dart';
 
@@ -56,10 +57,13 @@ class _HomeCustomSliverAppState extends State<HomeCustomSliverApp> {
                   isLabelVisible: snapshot > 0,
                   label: Text(snapshot.toString()),
                   child: AppCard(
+
+                    color: LightThemeAppColors.primaryColor,
                     withAlignment: false,
                     withShadow: false,
                     padding: const EdgeInsets.all(4),
                     child: Icon(
+                      size: 17.r,
                       Icons.favorite_border_outlined,
                     ),
                     onTap: () => Get.toNamed(WishListPage.routeName),

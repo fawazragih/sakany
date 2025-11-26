@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/core/theme/app_themes_helper.dart';
+import 'package:tamoily/app/core/theme/app_themes_helper.dart';
 
 import 'app_colors.dart';
 

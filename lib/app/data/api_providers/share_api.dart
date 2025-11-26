@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:http_parser/http_parser.dart';
 import 'package:mime/mime.dart';
-import 'package:sakani/app/data/api_providers/base_configs/base_api.dart';
-import 'package:sakani/app/data/models/bas_settings_response.dart';
-import 'package:sakani/app/data/models/file_download_response.dart';
-import 'package:sakani/app/data/models/file_upload_response.dart';
-import 'package:sakani/app/data/models/get_states_response.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/base_api.dart';
+import 'package:tamoily/app/data/models/bas_settings_response.dart';
+import 'package:tamoily/app/data/models/file_download_response.dart';
+import 'package:tamoily/app/data/models/file_upload_response.dart';
+import 'package:tamoily/app/data/models/get_states_response.dart';
 
 import 'api_response_models/general_response_model.dart';
 import 'base_configs/api_paths.dart';

@@ -1,4 +1,4 @@
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
 
 import '../models/requestbody/form_values_request_body.dart';
 import '../models/subscription_list_response.dart';

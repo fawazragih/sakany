@@ -1,5 +1,5 @@
 
-import 'package:sakani/app/data/models/product_summary.dart';
+import 'package:tamoily/app/data/models/product_summary.dart';
 
 import '../custom_properties.dart';
 

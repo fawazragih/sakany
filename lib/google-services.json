@@ -1,0 +1,124 @@
+{
+  "project_info": {
+    "project_number": "481676565592",
+    "project_id": "kitsys-nop-commerce",
+    "storage_bucket": "kitsys-nop-commerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481676565592:android:d9a4c60537214c1d16be2d",
+        "android_client_info": {
+          "package_name": "com.kitsys"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481676565592:android:11e8e0ff8379d9d216be2d",
+        "android_client_info": {
+          "package_name": "com.kitsys.books"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481676565592:android:696b2fe42f9d075116be2d",
+        "android_client_info": {
+          "package_name": "com.kitsys.clothes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481676565592:android:42495eef270dad6616be2d",
+        "android_client_info": {
+          "package_name": "com.kitsys.electronic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481676565592:android:c2fe4a2b1d73629216be2d",
+        "android_client_info": {
+          "package_name": "com.kitsys.localhost"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481676565592:android:a0f4275601e06d2c16be2d",
+        "android_client_info": {
+          "package_name": "com.kitsys.nop_ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

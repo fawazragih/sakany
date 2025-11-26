@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/home/categories_with_products_response.dart';
-import 'package:sakani/app/global_widget/list_title_and_view_all_row.dart';
-import 'package:sakani/app/modules/product_list_page/argument/product_list_argument.dart';
-import 'package:sakani/app/modules/product_list_page/product_list_view.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/data/models/home/categories_with_products_response.dart';
+import 'package:tamoily/app/global_widget/list_title_and_view_all_row.dart';
+import 'package:tamoily/app/modules/product_list_page/argument/product_list_argument.dart';
+import 'package:tamoily/app/modules/product_list_page/product_list_view.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 import '../../../all_manufacturers_page/all_manufacturers_view.dart';
 import '../../../all_manufacturers_page/arguments/all_manufacturers_screen_args.dart';
 import 'scrollview_with_scrollbar.dart';

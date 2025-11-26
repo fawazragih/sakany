@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:app_extensions/app_extensions.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
 
 import '../api_response_models/general_exception.dart';
 import '../api_response_models/general_response_model.dart';
@@ -62,13 +62,14 @@ extension HandleResoponse on Future<Response<dynamic>> {
       // logger.i(response.data);
       // Map<String,dynamic> data;
       dynamic data;
-
       if (response.data is String && response.data.toString().isJsonString) {
         data = json.decode(response.data.toString());
+
       } else {
         // logger.d('is not String');
         data = jsonDecode(jsonEncode(response.data));
       }
+
 
       // logger.d(data.runtimeType);
 
@@ -89,33 +90,8 @@ extension HandleResoponse on Future<Response<dynamic>> {
       }
 
       return (myJsonParser(data), null);
-      } on FormatException catch (error, stacktrace) {
-      if (kDebugMode) {
-        print('$stacktrace');
       }
-      logger.e('FormatException:::=> ${error.message}');
-      return (
-        null,
-        GeneralException(
-          statusCode: -1,
-          errorType: 'FormatException',
-          message: 'FormatException\n${error.toString()}',
-        )
-      );
-    } on TypeError catch (error) {
-      logger.e('Data type error:::=> ${error.toString()}');
-      if (kDebugMode) {
-        print('${error.stackTrace}');
-      }
-      return (
-        null,
-        GeneralException(
-          statusCode: -2,
-          errorType: 'TypeError',
-          message: 'TypeError\n${error.toString()}',
-        )
-      );
-    } catch (e, stacktrace) {
+      catch (e, stacktrace) {
       if (kDebugMode) {
         print(stacktrace);
       }

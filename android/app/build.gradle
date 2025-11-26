@@ -28,10 +28,10 @@ if (keystorePropertiesFile.exists()) {
 
 
 android {
-    namespace = "com.kitsys"
+    namespace = "com.tamoily.app"
 //    compileSdk = localProperties.getProperty('flutter.compileSdkVersion').toInteger()
-    compileSdkVersion 35
-    ndkVersion '27.0.12077973'
+    compileSdkVersion 36
+//    ndkVersion '27.0.12077973'
     //ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -59,139 +59,153 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.kitsys"
+        applicationId = "com.tamoily.app"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = localProperties.getProperty('flutter.minSdkVersion').toInteger()
-        targetSdk = localProperties.getProperty('flutter.targetSdkVersion').toInteger()
+        minSdkVersion = flutter.minSdkVersion
+                //localProperties.getProperty('flutter.minSdkVersion')
+        targetSdk = 36
+                //localProperties.getProperty('flutter.targetSdkVersion')
         versionCode = localProperties.getProperty('flutter.versionCode')
         versionName = localProperties.getProperty('flutter.versionName')
         multiDexEnabled true
         multiDexKeepFile file('multidex-flutter.txt')
     }
 
-    signingConfigs {
-        release {
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-            storePassword keystoreProperties['storePassword']
-        }
-    }
+//    signingConfigs {
+//        release {
+//            storeFile file(keystoreProperties['storeFile'])
+//            storePassword keystoreProperties['storePassword']
+//            keyAlias keystoreProperties['keyAlias']
+//            keyPassword keystoreProperties['keyPassword']
+//        }
+//    }
 
     buildTypes {
+//        release {
+//            debuggable false
+//            minifyEnabled true
+//            shrinkResources true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.release
+//        }
         release {
-            debuggable false
-            minifyEnabled true
-            shrinkResources true
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
         }
     }
 
 
-    flavorDimensions 'default'
-    productFlavors {
-        ///... to create build apk for test
-        clothes {
-            dimension "default"
-            //versionNameSuffix ".clothes"
-            applicationIdSuffix '.clothes'
-            //resValue "string", "app_name", "@string/app_name_clothes"
-            ndk {
-                abiFilters "armeabi-v7a"
-            }
-        }
+     flavorDimensions 'default'
+     productFlavors {
+//         ///... to create build apk for test
+//         tamoily {
+//             dimension "default"
+//             //versionNameSuffix ".clothes"
+//             applicationIdSuffix '.tamoily'
+//             //resValue "string", "app_name", "@string/app_name_clothes"
+//             ndk {
+//                 abiFilters "armeabi-v7a"
+//             }
+//         }
+//
+//         ///... to create build apk for debug in emulator
+         emTamoily {
+             dimension "default"
+             //versionNameSuffix ".clothes"
+             applicationIdSuffix '.tamoily'
+             //resValue "string", "app_name", "@string/app_name_clothes"
+         }
+//         emClothes {
+//             dimension "default"
+//             //versionNameSuffix ".clothes"
+//             applicationIdSuffix '.clothes'
+//             //resValue "string", "app_name", "@string/app_name_clothes"
+//         }
+//
+//
+//         ///... to create build apk for test
+//         books {
+//             dimension "default"
+//             //versionNameSuffix ".books"
+//             applicationIdSuffix '.books'
+//             //resValue "string", "app_name", "@string/app_name_books"
+//             ndk {
+//                 abiFilters "armeabi-v7a"
+//             }
+//         }
+//
+//         ///... to create build apk for debug in emulator
+//         emBooks {
+//             dimension "default"
+//             //versionNameSuffix ".books"
+//             applicationIdSuffix '.books'
+//             //resValue "string", "app_name", "@string/app_name_books"
+//         }
+//
+//
+//         ///... to create build apk for test
+//         electronic {
+//             dimension "default"
+//             //versionNameSuffix ".electronic"
+//             applicationIdSuffix '.electronic'
+//             //resValue "string", "app_name", "@string/app_name_electronic"
+//             ndk {
+//                 abiFilters "armeabi-v7a"
+//             }
+//         }
+//
+//         ///... to create build apk for debug in emulator
+//         emElectronic {
+//             dimension "default"
+//             //versionNameSuffix ".electronic"
+//             applicationIdSuffix '.electronic'
+//             //resValue "string", "app_name", "@string/app_name_electronic"
+//         }
+//
+//         ///... to create build apk for test
+//         liveForTest {
+//             dimension "default"
+//             //resValue "string", "app_name", "@string/app_name_live"
+//             ndk {
+//                 abiFilters "armeabi-v7a"
+//             }
+//         }
+//
+//         ///... to create build apk for debug in emulator
+//         emLive {
+//             dimension "default"
+//             //resValue "string", "app_name", "@string/app_name_live"
+//         }
+//
+//         ///... to create build release bundle for google play
+//         live {
+//             dimension "default"
+//             //resValue "string", "app_name", "@string/app_name_live"
+//             ndk {
+//                 abiFilters "armeabi-v7a", 'arm64-v8a'
+//             }
+//         }
+//
+//         localhost {
+//             dimension "default"
+//             applicationIdSuffix '.localhost'
+//             ndk {
+//                 abiFilters "armeabi-v7a"
+//             }
+//         }
+//
+//         ///... to create build apk for debug in emulator
+//         emlocalhost {
+//             dimension "default"
+//             applicationIdSuffix '.localhost'
+//             //resValue "string", "app_name", "@string/app_name_localhost"
+//         }
 
-        ///... to create build apk for debug in emulator
-        emClothes {
-            dimension "default"
-            //versionNameSuffix ".clothes"
-            applicationIdSuffix '.clothes'
-            //resValue "string", "app_name", "@string/app_name_clothes"
-        }
 
-        ///... to create build apk for test
-        books {
-            dimension "default"
-            //versionNameSuffix ".books"
-            applicationIdSuffix '.books'
-            //resValue "string", "app_name", "@string/app_name_books"
-            ndk {
-                abiFilters "armeabi-v7a"
-            }
-        }
-
-        ///... to create build apk for debug in emulator
-        emBooks {
-            dimension "default"
-            //versionNameSuffix ".books"
-            applicationIdSuffix '.books'
-            //resValue "string", "app_name", "@string/app_name_books"
-        }
-
-
-        ///... to create build apk for test
-        electronic {
-            dimension "default"
-            //versionNameSuffix ".electronic"
-            applicationIdSuffix '.electronic'
-            //resValue "string", "app_name", "@string/app_name_electronic"
-            ndk {
-                abiFilters "armeabi-v7a"
-            }
-        }
-
-        ///... to create build apk for debug in emulator
-        emElectronic {
-            dimension "default"
-            //versionNameSuffix ".electronic"
-            applicationIdSuffix '.electronic'
-            //resValue "string", "app_name", "@string/app_name_electronic"
-        }
-
-        ///... to create build apk for test
-        liveForTest {
-            dimension "default"
-            //resValue "string", "app_name", "@string/app_name_live"
-            ndk {
-                abiFilters "armeabi-v7a"
-            }
-        }
-
-        ///... to create build apk for debug in emulator
-        emLive {
-            dimension "default"
-            //resValue "string", "app_name", "@string/app_name_live"
-        }
-
-        ///... to create build release bundle for google play
-        live {
-            dimension "default"
-            //resValue "string", "app_name", "@string/app_name_live"
-            ndk {
-                abiFilters "armeabi-v7a", 'arm64-v8a'
-            }
-        }
-
-        localhost {
-            dimension "default"
-            applicationIdSuffix '.localhost'
-            ndk {
-                abiFilters "armeabi-v7a"
-            }
-        }
-
-        ///... to create build apk for debug in emulator
-        emlocalhost {
-            dimension "default"
-            applicationIdSuffix '.localhost'
-            //resValue "string", "app_name", "@string/app_name_localhost"
-        }
-
-
-    }
-
+     }
 }
 
 flutter {

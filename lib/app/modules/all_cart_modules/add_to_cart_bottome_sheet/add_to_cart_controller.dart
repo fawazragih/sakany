@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/product_summary.dart';
+import 'package:tamoily/app/data/models/product_summary.dart';
 import '../../../base_controllers_and_listeners/base_controller.dart';
 
 

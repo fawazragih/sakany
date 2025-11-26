@@ -2,9 +2,9 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/modules/product_list_page/argument/product_list_argument.dart';
-import 'package:sakani/app/modules/product_list_page/product_list_view.dart';
-import 'package:sakani/app/modules/products_details_screen/products_details_controller.dart';
+import 'package:tamoily/app/modules/product_list_page/argument/product_list_argument.dart';
+import 'package:tamoily/app/modules/product_list_page/product_list_view.dart';
+import 'package:tamoily/app/modules/products_details_screen/products_details_controller.dart';
 
 import '../../../utils/constants/const_strings.dart';
 

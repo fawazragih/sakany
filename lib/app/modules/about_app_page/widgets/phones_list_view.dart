@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/global_widget/bottome_sheet_widgets/bottom_sheet_top_container.dart';
-import 'package:sakani/app/global_widget/dashed_divider_widget.dart';
-import 'package:sakani/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/global_widget/bottome_sheet_widgets/bottom_sheet_top_container.dart';
+import 'package:tamoily/app/global_widget/dashed_divider_widget.dart';
+import 'package:tamoily/app/global_widget/my_card_design.dart';
 
 import '../../../utils/url_launcher_manager.dart';
 

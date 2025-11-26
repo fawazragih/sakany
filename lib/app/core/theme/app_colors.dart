@@ -7,19 +7,20 @@ class LightThemeAppColors {
   static const Color primaryColor = Color(0xFFFFFFFF);
   static const Color primaryColorLight = Color(0xFFEAF4FF);
   // static const Color primaryColorLight = Color(0xFF2c6ae3);
-  static const Color primaryColorDark = Color(0xFF142F5E);
+  static const Color primaryColorDark = Color(0xFFD18546);
 
   static const Color scaffoldBgColor = Color(0xFFF7F7F9);
 
   /// Scheme colors
   // static const Color primaryScheme = Color(0xFF0971CE);
-  static const Color primaryScheme = Color(0xffec9b25);
+  // static const Color primaryScheme = Color(0xffa8ad92);
+  static const Color primaryScheme = Color(0xFFD18546);
   static const Color secondaryScheme = Color(0xffe3f1ff);
 
   // static const Color secondaryScheme = Color(0xFFec9b25);
   static const Color cardColor = Color(0xFFFFFFFF);
   static Color dividerColor = Colors.grey.shade300;
-
+  static Color newGreyColor100 = Colors.grey.shade100;
   // static const Color surfaceScheme = Color(0xff000000);
   // static const Color surfaceTintScheme = Color(0xff545454);
   // static const Color primaryContainer = Color(0xfffff0cc);
@@ -30,9 +31,9 @@ class LightThemeAppColors {
   // static const Color backGroundScheme = Color(0xfffedaa9);
 
   ///..
-  static const Color iconColor = Color(0xFF000000);
+  // static const Color iconColor = Color(0xFF000000);
 
-  // static const Color iconColor = primaryColorDark;
+  static const Color iconColor = primaryColorDark;
 
   ///..
   static const Color green = Color(0xff027548);

@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:sakani/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
+import 'package:tamoily/app/core/language_and_localization/app_strings.dart';
+import 'package:tamoily/app/global_widget/retry_and_errors_widgets/retry_widget.dart';
 
 import '../global_widget/loading_progress_bar.dart';
 import 'empty_data_widget.dart';

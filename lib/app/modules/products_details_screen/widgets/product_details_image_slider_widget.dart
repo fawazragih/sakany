@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
-import 'package:sakani/app/global_widget/app_bar_widgets/app_back_button.dart';
-import 'package:sakani/app/global_widget/images_and_videos_widgets/image_slider_widget.dart';
-import 'package:sakani/app/global_widget/my_card_design.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/global_widget/app_bar_widgets/app_back_button.dart';
+import 'package:tamoily/app/global_widget/images_and_videos_widgets/image_slider_widget.dart';
+import 'package:tamoily/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
 import '../../../utils/constants/app_constants.dart';
 import '../products_details_controller.dart';
 

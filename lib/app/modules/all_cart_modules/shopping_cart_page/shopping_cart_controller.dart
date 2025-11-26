@@ -1,21 +1,21 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani/app/data/models/gift_card.dart';
-import 'package:sakani/app/data/models/post_checkout_attr_response.dart';
-import 'package:sakani/app/data/models/requestbody/form_value.dart';
-import 'package:sakani/app/data/models/requestbody/form_values_request_body.dart';
-import 'package:sakani/app/data/models/shopping_cart_response.dart';
-import 'package:sakani/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
-import 'package:sakani/app/modules/all_cart_modules/repository/cart_repository.dart';
-import 'package:sakani/app/modules/all_cart_modules/shopping_cart_page/widgets/checkout_dialog.dart';
-import 'package:sakani/app/modules/auth_module/login_screen/login_view.dart';
-import 'package:sakani/app/modules/checkout_page/checkout_view.dart';
-import 'package:sakani/app/modules/products_details_screen/widgets/estimate_shipping_dialog_page/estimate_shipping_dialog_view.dart';
-import 'package:sakani/app/services/bas_service_configs/bas_service.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
-import 'package:sakani/app/utils/nop_custom_attribute_manager/custom_attribute_manager.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/models/gift_card.dart';
+import 'package:tamoily/app/data/models/post_checkout_attr_response.dart';
+import 'package:tamoily/app/data/models/requestbody/form_value.dart';
+import 'package:tamoily/app/data/models/requestbody/form_values_request_body.dart';
+import 'package:tamoily/app/data/models/shopping_cart_response.dart';
+import 'package:tamoily/app/modules/all_cart_modules/cart_helper/cart_init_and_check_helper.dart';
+import 'package:tamoily/app/modules/all_cart_modules/repository/cart_repository.dart';
+import 'package:tamoily/app/modules/all_cart_modules/shopping_cart_page/widgets/checkout_dialog.dart';
+import 'package:tamoily/app/modules/auth_module/login_screen/login_view.dart';
+import 'package:tamoily/app/modules/checkout_page/checkout_view.dart';
+import 'package:tamoily/app/modules/products_details_screen/widgets/estimate_shipping_dialog_page/estimate_shipping_dialog_view.dart';
+import 'package:tamoily/app/services/bas_service_configs/bas_service.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/utils/nop_custom_attribute_manager/custom_attribute_manager.dart';
 
 class ShoppingCartController extends BaseController {
   final CartRepository _repository = CartRepository();

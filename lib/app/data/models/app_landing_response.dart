@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:sakani/app/core/language_and_localization/languages_list.dart';
+import 'package:tamoily/app/core/language_and_localization/languages_list.dart';
 
 import 'custom_properties.dart';
 

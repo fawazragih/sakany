@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:get/get.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
 import 'package:simple_connection_checker/simple_connection_checker.dart';
 import 'no_connection_snack_bar.dart';
 
@@ -27,11 +27,11 @@ class ConnectivityController extends GetxService {
   }
 
   bool _getStatusFromResult(bool result) {
-    logger.d(result);
+    logger.d("55555555555555555$result");
 
-    result
-        ? NoConnectionSnackBar.instance.hideNoConnectionSnackBar()
-        : NoConnectionSnackBar.instance.showNoConnectionSnackBar();
+    // result
+    //     ? NoConnectionSnackBar.instance.hideNoConnectionSnackBar()
+    //     : NoConnectionSnackBar.instance.showNoConnectionSnackBar();
     // print('====> connectivity is $result');
     currentConnectivityStatus = result;
     return currentConnectivityStatus!;

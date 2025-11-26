@@ -17,7 +17,8 @@ abstract class BackendEnv {
 
 class KitSysEnv extends BackendEnv {
   @override
-  String get baseUrl => 'https://ecommerce.ks3.kitsys.site';
+  // String get baseUrl => 'https://saas-web-tst.yk-bank.com:9003';
+  String get baseUrl => 'https://sakany-tst.yk-bank.com:9003';
 
   @override
   String get identityUrl => baseUrl;
@@ -28,7 +29,8 @@ class ClothesEnv extends BackendEnv {
   // String get baseUrl => 'https://ms-store.demo.maujood.store';
   // String get baseUrl => 'https://ysf-store.demo2.maujood.store';
   // String get baseUrl => 'http://ms-store.crabdance.com';
-  String get baseUrl => 'https://saas-web-tst.yk-bank.com:9003';
+  // String get baseUrl => 'https://saas-web-tst.yk-bank.com:9003';
+  String get baseUrl => 'https://sakany-tst.yk-bank.com:9003';
 
   // String get baseUrl =>  kIsWeb?'https://ms-store.demo.maujood.store' :'https://clothes.ks3.kitsys.site';
 
@@ -38,7 +40,8 @@ class ClothesEnv extends BackendEnv {
 
 class BooksEnv extends BackendEnv {
   @override
-  String get baseUrl => 'https://book.ks3.kitsys.site';
+  // String get baseUrl => 'https://book.ks3.kitsys.site';
+  String get baseUrl => 'https://sakany-tst.yk-bank.com:9003';
 
   @override
   String get identityUrl => baseUrl;
@@ -46,7 +49,8 @@ class BooksEnv extends BackendEnv {
 
 class ElectronicsEnv extends BackendEnv {
   @override
-  String get baseUrl => 'https://electronic.ks3.kitsys.site';
+  // String get baseUrl => 'https://electronic.ks3.kitsys.site';
+  String get baseUrl => 'https://sakany-tst.yk-bank.com:9003';
 
   @override
   String get identityUrl => baseUrl;

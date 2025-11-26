@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sakani/app/data/models/get_billing_address_response.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/data/models/get_billing_address_response.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/global_widget/my_card_design.dart';
 
 class ItemAddressList extends StatelessWidget {
   final Address address;

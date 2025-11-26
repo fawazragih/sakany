@@ -1,5 +1,5 @@
 
-import 'package:sakani/app/data/models/bas_settings_response.dart' show BasSettingsData;
+import 'package:tamoily/app/data/models/bas_settings_response.dart' show BasSettingsData;
 
 import '../data/api_providers/api_response_models/general_response_model.dart';
 import '../data/api_providers/base_configs/handling_dio_response.dart';

@@ -2,7 +2,7 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sakani/app/base_controllers_and_listeners/helpers_methods.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/helpers_methods.dart';
 import '../../core/assets_helpers/app_images.dart';
 import 'app_image_loader.dart';
 
@@ -125,7 +125,7 @@ class _CarouselWithIndicatorState<T> extends State<ImageSliderWidget<T>> {
                     // borderRadius:
                     //     isCurrent ? BorderRadius.circular(12.0) : null,
                     color: isCurrent
-                        ? Theme.of(context).colorScheme.primary
+                        ? Colors.white
                         : Theme.of(context).disabledColor.withOpacity(0.2),
                   ),
                 ),

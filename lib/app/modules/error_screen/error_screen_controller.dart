@@ -1,7 +1,7 @@
 
 import 'package:get/get.dart';
-import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani/app/modules/error_screen/error_screen.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:tamoily/app/modules/error_screen/error_screen.dart';
 
 class ErrorPageController extends BaseController{
 

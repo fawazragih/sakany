@@ -1,7 +1,7 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sakani/app/data/models/product_list/product_list_response.dart';
+import 'package:tamoily/app/data/models/product_list/product_list_response.dart';
 
 import '../../../../global_widget/app_ui_helper/ui_helpers.dart';
 import '../../../../utils/constants/const_strings.dart';

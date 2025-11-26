@@ -2,16 +2,16 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/reward_point_response.dart';
-import 'package:sakani/app/global_widget/app_bar_widgets/custom_app_bar.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/global_widget/empty_data_widget.dart';
-import 'package:sakani/app/global_widget/my_card_design.dart';
-import 'package:sakani/app/global_widget/pagination_list_builder.dart';
-import 'package:sakani/app/global_widget/screen_status_widgets.dart';
-import 'package:sakani/app/modules/reward_point_page/widgets/reward_point_item_template.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/data/models/reward_point_response.dart';
+import 'package:tamoily/app/global_widget/app_bar_widgets/custom_app_bar.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/global_widget/empty_data_widget.dart';
+import 'package:tamoily/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/global_widget/pagination_list_builder.dart';
+import 'package:tamoily/app/global_widget/screen_status_widgets.dart';
+import 'package:tamoily/app/modules/reward_point_page/widgets/reward_point_item_template.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 
 import 'reward_point_controller.dart';
 

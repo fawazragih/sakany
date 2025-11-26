@@ -1,8 +1,8 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/api_providers/auth_api.dart';
-import 'package:sakani/app/data/models/user_login_response.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/data/api_providers/auth_api.dart';
+import 'package:tamoily/app/data/models/user_login_response.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
 
 import '../data/local_data/session_service.dart';
 import '../utils/utility.dart';

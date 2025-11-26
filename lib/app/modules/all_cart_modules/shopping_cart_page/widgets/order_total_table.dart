@@ -2,9 +2,9 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/shopping_cart_response.dart';
-import 'package:sakani/app/global_widget/dashed_divider_widget.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/data/models/shopping_cart_response.dart';
+import 'package:tamoily/app/global_widget/dashed_divider_widget.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 
 class OrderTotalTable extends StatelessWidget {
   final OrderTotals? orderTotals;

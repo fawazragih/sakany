@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
 import '../app_shared_data_manager.dart';
 import 'local_notification_services.dart';
 

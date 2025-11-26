@@ -4,19 +4,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/core/language_and_localization/app_strings.dart';
-import 'package:sakani/app/data/models/available_option.dart';
-import 'package:sakani/app/data/models/register_form_response.dart';
-import 'package:sakani/app/global_widget/action_buttons/action_button.dart';
-import 'package:sakani/app/global_widget/all_form_widgets/check_box_form_field.dart';
-import 'package:sakani/app/global_widget/all_form_widgets/date_picker_widget.dart';
-import 'package:sakani/app/global_widget/all_form_widgets/drop_down_menu_form_field_widget.dart';
-import 'package:sakani/app/global_widget/all_form_widgets/dynamic_choice_chips_form_widget.dart';
-import 'package:sakani/app/global_widget/all_form_widgets/input_text_field_widget.dart';
-import 'package:sakani/app/global_widget/all_form_widgets/password_input.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/modules/auth_module/signup_screen/signup_controller.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/core/language_and_localization/app_strings.dart';
+import 'package:tamoily/app/data/models/available_option.dart';
+import 'package:tamoily/app/data/models/register_form_response.dart';
+import 'package:tamoily/app/global_widget/action_buttons/action_button.dart';
+import 'package:tamoily/app/global_widget/all_form_widgets/check_box_form_field.dart';
+import 'package:tamoily/app/global_widget/all_form_widgets/date_picker_widget.dart';
+import 'package:tamoily/app/global_widget/all_form_widgets/drop_down_menu_form_field_widget.dart';
+import 'package:tamoily/app/global_widget/all_form_widgets/dynamic_choice_chips_form_widget.dart';
+import 'package:tamoily/app/global_widget/all_form_widgets/input_text_field_widget.dart';
+import 'package:tamoily/app/global_widget/all_form_widgets/password_input.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/modules/auth_module/signup_screen/signup_controller.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 
 
 class RegisterForm extends StatelessWidget {

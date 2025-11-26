@@ -1,5 +1,5 @@
 // import 'package:flutter/cupertino.dart';
-// import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+// import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
 // import 'package:video_player/video_player.dart';
 //
 // import '../../../../../base_controllers_and_listeners/base_controller.dart';

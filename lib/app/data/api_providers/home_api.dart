@@ -1,6 +1,6 @@
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
-import 'package:sakani/app/data/models/home_slider_response.dart';
-import 'package:sakani/app/data/models/product_summary.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/models/home_slider_response.dart';
+import 'package:tamoily/app/data/models/product_summary.dart';
 
 import '../models/category_tree/category_tree_response.dart';
 import '../models/home/categories_with_products_response.dart';

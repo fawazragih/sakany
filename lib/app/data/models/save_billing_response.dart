@@ -1,5 +1,5 @@
 import 'package:collection/collection.dart';
-import 'package:sakani/app/modules/checkout_page/checkout_shared_mixin.dart';
+import 'package:tamoily/app/modules/checkout_page/checkout_shared_mixin.dart';
 import 'shopping_cart_response.dart';
 import 'custom_properties.dart';
 import 'estimate_shipping.dart';

@@ -2,7 +2,7 @@
 // import 'package:flutter/material.dart';
 // import 'package:flutter_screenutil/flutter_screenutil.dart';
 // import 'package:get/get.dart';
-// import 'package:sakani/app/global_widget/my_card_design.dart';
+// import 'package:tamoily/app/global_widget/my_card_design.dart';
 //
 // import 'app_ui_helper/ui_helpers.dart';
 //

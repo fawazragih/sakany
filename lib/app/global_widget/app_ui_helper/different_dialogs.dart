@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/app_fancy_dialog.dart';
-import 'package:sakani/app/global_widget/loading_progress_bar.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/app_fancy_dialog.dart';
+import 'package:tamoily/app/global_widget/loading_progress_bar.dart';
 import '../../core/language_and_localization/app_strings.dart';
 import 'shared_style.dart';
 

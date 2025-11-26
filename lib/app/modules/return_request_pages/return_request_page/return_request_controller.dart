@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/base_controllers_and_listeners/base_controller.dart';
-import 'package:sakani/app/data/models/requestbody/form_value.dart';
-import 'package:sakani/app/modules/return_request_pages/repository/return_request_repository.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/base_controllers_and_listeners/base_controller.dart';
+import 'package:tamoily/app/data/models/requestbody/form_value.dart';
+import 'package:tamoily/app/modules/return_request_pages/repository/return_request_repository.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
 
 import '../../../data/api_providers/base_configs/handling_dio_response.dart';
 import '../../../data/models/file_upload_response.dart';

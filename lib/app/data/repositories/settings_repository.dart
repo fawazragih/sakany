@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/foundation.dart';
-import 'package:sakani/app/data/api_providers/app_settings_api.dart';
-import 'package:sakani/app/data/api_providers/base_configs/handling_dio_response.dart';
+import 'package:tamoily/app/data/api_providers/app_settings_api.dart';
+import 'package:tamoily/app/data/api_providers/base_configs/handling_dio_response.dart';
 import '../models/requestbody/app_start_req_body.dart';
 
 class SettingsRepository {

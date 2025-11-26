@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/data/models/shopping_cart_response.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/shared_style.dart';
+import 'package:tamoily/app/data/models/shopping_cart_response.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/shared_style.dart';
 import '../shopping_cart_controller.dart';
 import 'cart_list_item.dart';
 

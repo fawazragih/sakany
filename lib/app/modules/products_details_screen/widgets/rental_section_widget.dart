@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:sakani/app/global_widget/all_form_widgets/date_picker_widget.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/modules/products_details_screen/products_details_controller.dart';
-import 'package:sakani/app/utils/constants/const_strings.dart';
-import 'package:sakani/app/utils/nop_custom_attribute_manager/validation_mixin.dart';
+import 'package:tamoily/app/global_widget/all_form_widgets/date_picker_widget.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/modules/products_details_screen/products_details_controller.dart';
+import 'package:tamoily/app/utils/constants/const_strings.dart';
+import 'package:tamoily/app/utils/nop_custom_attribute_manager/validation_mixin.dart';
 
 class RentalSectionWidget extends GetWidget<ProductsDetailsController>
     with ValidationMixin {

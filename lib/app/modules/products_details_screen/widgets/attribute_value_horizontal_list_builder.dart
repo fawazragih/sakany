@@ -1,12 +1,12 @@
 import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sakani/app/data/models/custom_attribute.dart';
-import 'package:sakani/app/global_widget/horizontal_list_builder.dart';
-import 'package:sakani/app/global_widget/images_and_videos_widgets/app_image_loader.dart';
-import 'package:sakani/app/global_widget/my_card_design.dart';
-import 'package:sakani/app/utils/nop_custom_attribute_manager/custom_attribute_manager.dart';
-import 'package:sakani/app/utils/api_env_config/app_logger_config.dart';
+import 'package:tamoily/app/data/models/custom_attribute.dart';
+import 'package:tamoily/app/global_widget/horizontal_list_builder.dart';
+import 'package:tamoily/app/global_widget/images_and_videos_widgets/app_image_loader.dart';
+import 'package:tamoily/app/global_widget/my_card_design.dart';
+import 'package:tamoily/app/utils/nop_custom_attribute_manager/custom_attribute_manager.dart';
+import 'package:tamoily/app/utils/api_env_config/app_logger_config.dart';
 
 class AttributeValueHorizontalListBuilder extends StatelessWidget {
   final CustomAttribute currentAttribute;

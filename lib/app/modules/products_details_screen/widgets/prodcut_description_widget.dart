@@ -1,8 +1,8 @@
 // import 'package:app_extensions/app_extensions.dart';
 // import 'package:flutter/material.dart';
 // import 'package:get/get.dart';
-// import 'package:sakani/app/core/language_and_localization/app_strings.dart';
-// import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
+// import 'package:tamoily/app/core/language_and_localization/app_strings.dart';
+// import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
 //
 // import '../../../data/models/product_model.dart';
 //

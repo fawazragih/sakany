@@ -45,7 +45,7 @@ buildWebHtml:
 
 
 
-#  dart run change_app_package_name:main com.kitsys.ecommerce
+#  dart run change_app_package_name:main com.tamoily.app
 #  flutter pub run flutter_launcher_icons:main
 #  flutter pub run flutter_native_splash:create
 #  .fvm/flutter_sdk/bin/flutter

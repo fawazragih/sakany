@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "481676565592",
-    "project_id": "kitsys-nop-commerce",
-    "storage_bucket": "kitsys-nop-commerce.appspot.com"
+    "project_number": "845566953337",
+    "project_id": "miniapps-71f37",
+    "storage_bucket": "miniapps-71f37.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:481676565592:android:d9a4c60537214c1d16be2d",
+        "mobilesdk_app_id": "1:845566953337:android:f587415cda89fe882151a8",
         "android_client_info": {
-          "package_name": "com.kitsys"
+          "package_name": "com.example.miniapp"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
+          "current_key": "AIzaSyDKnnk0sG5YlUiGmv-yruI_5rO0sueL9xo"
         }
       ],
       "services": {
@@ -26,15 +26,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:481676565592:android:11e8e0ff8379d9d216be2d",
+        "mobilesdk_app_id": "1:845566953337:android:1b063b8004a31ecd2151a8",
         "android_client_info": {
-          "package_name": "com.kitsys.books"
+          "package_name": "com.tamoily.app"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
+          "current_key": "AIzaSyDKnnk0sG5YlUiGmv-yruI_5rO0sueL9xo"
         }
       ],
       "services": {
@@ -45,72 +45,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:481676565592:android:696b2fe42f9d075116be2d",
+        "mobilesdk_app_id": "1:845566953337:android:e16fa1a5d7ab92ea2151a8",
         "android_client_info": {
-          "package_name": "com.kitsys.clothes"
+          "package_name": "com.tamoily.app.tamoily"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:481676565592:android:42495eef270dad6616be2d",
-        "android_client_info": {
-          "package_name": "com.kitsys.electronic"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:481676565592:android:c2fe4a2b1d73629216be2d",
-        "android_client_info": {
-          "package_name": "com.kitsys.localhost"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:481676565592:android:a0f4275601e06d2c16be2d",
-        "android_client_info": {
-          "package_name": "com.kitsys.nop_ecommerce"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBHQtiq4I-rzyxzSVPnPtBhMDw1UcfZNIY"
+          "current_key": "AIzaSyDKnnk0sG5YlUiGmv-yruI_5rO0sueL9xo"
         }
       ],
       "services": {

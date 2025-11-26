@@ -3,9 +3,9 @@ import 'package:app_extensions/app_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:sakani/app/global_widget/app_ui_helper/ui_helpers.dart';
-import 'package:sakani/app/utils/api_env_config/api_env.dart';
-import 'package:sakani/app/utils/api_env_config/api_env_setter.dart';
+import 'package:tamoily/app/global_widget/app_ui_helper/ui_helpers.dart';
+import 'package:tamoily/app/utils/api_env_config/api_env.dart';
+import 'package:tamoily/app/utils/api_env_config/api_env_setter.dart';
 import '../../core/assets_helpers/app_images.dart';
 import 'splash_controller.dart';
 
