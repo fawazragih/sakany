@@ -74,7 +74,8 @@ class HorizontalProductTemplate extends StatelessWidget {
     final image = AppImageLoader(
       imageUrl: productData.defaultPictureModel?.imageUrl ??
           productData.defaultPictureModel?.fullSizeImageUrl ??
-          productData.defaultPictureModel?.thumbImageUrl ?? 
+          productData.defaultPictureModel?.thumbImageUrl ??
+          productData.pictureModels?.firstOrNull?.imageUrl ??
           'http://',
       height: 180.0.h,
       width: double.maxFinite,

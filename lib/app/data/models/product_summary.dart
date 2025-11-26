@@ -18,6 +18,7 @@ class ProductSummary {
     this.reviewOverviewModel,
     this.id,
     this.customProperties,
+    this.pictureModels,
   });
 
   String? name;
@@ -29,6 +30,7 @@ class ProductSummary {
   bool? markAsNew;
   ProductSummaryPrice? productPrice;
   PictureModel? defaultPictureModel;
+  List<PictureModel>? pictureModels;
   ProductSpecificationModel? productSpecificationModel;
   ReviewOverviewModel? reviewOverviewModel;
   int? id;
@@ -59,6 +61,10 @@ class ProductSummary {
         customProperties: json["CustomProperties"] == null
             ? null
             : CustomProperties.fromJson(json["CustomProperties"]),
+      pictureModels: json["PictureModels"] == null
+            ? null
+            : List<PictureModel>.from(
+                json["PictureModels"]!.map((x) => PictureModel.fromJson(x))),
       );
 
   factory ProductSummary.fake() => ProductSummary(
