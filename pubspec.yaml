@@ -124,6 +124,7 @@ dependencies:
   bas_sdk:
     git:
       url: https://github.com/basgate/bas_flutter_sdk.git
+  rename: ^3.1.0
 
 
 
@@ -178,9 +179,9 @@ flutter_native_splash:
 
 
 flutter_icons:
-  android: "ic_launcher"
+  android: "launcher_icon"
   ios: true
-  image_path: "assets/images/app_logos/logo.jpg"
+  image_path: "assets/images/app_logos/app icon.jpg"
 
 
 flutter:
@@ -197,6 +198,7 @@ flutter:
     - assets/images/temp_placeholder/
     - assets/images/decoration/
     - assets/
+    - assets/icon/
 
 
   fonts:
