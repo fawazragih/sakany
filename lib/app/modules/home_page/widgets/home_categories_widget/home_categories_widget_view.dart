@@ -59,7 +59,8 @@ class HomeCategoriesWidget extends StatelessWidget {
                           ),
                           UiHelper.verticalSpaceSmallMedium,
                           SizedBox(
-                            height:controller.categoriesTree!.length * 90.h,
+                            // height:controller.categoriesTree!.length * 90.h,
+                            height:MediaQuery.of(context).size.height* 0.5,
                             child: GridView.builder(
                               primary: false,
                               padding: EdgeInsets.zero,

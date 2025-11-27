@@ -112,12 +112,12 @@ android {
 //         }
 //
 //         ///... to create build apk for debug in emulator
-         emTamoily {
-             dimension "default"
-             //versionNameSuffix ".clothes"
-             applicationIdSuffix '.tamoily'
-             //resValue "string", "app_name", "@string/app_name_clothes"
-         }
+//         emTamoily {
+//             dimension "default"
+//             //versionNameSuffix ".clothes"
+//             applicationIdSuffix '.tamoily'
+//             //resValue "string", "app_name", "@string/app_name_clothes"
+//         }
 //         emClothes {
 //             dimension "default"
 //             //versionNameSuffix ".clothes"
